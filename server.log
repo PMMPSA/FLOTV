@@ -6563,3 +6563,32 @@
 2021-11-04 [20:07:06.617] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
 2021-11-04 [20:07:08.034] [Server thread/INFO]: [Update Checker] You're running a Beta build, but you're receiving update notifications for Stable builds.
 2021-11-04 [20:07:08.034] [Server thread/INFO]: [Update Checker] To get notified about new Beta or Development builds, change 'preferred-channel' in your pocketmine.yml to 'beta' or 'development'.
+2021-11-04 [20:19:26.598] [Server thread/INFO]: Loading server configuration
+2021-11-04 [20:19:26.630] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-04 [20:19:26.630] [Server thread/WARNING]: ----------------------------------------
+2021-11-04 [20:19:26.630] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-04 [20:19:26.630] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-04 [20:19:26.630] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-04 [20:19:26.630] [Server thread/WARNING]: ----------------------------------------
+2021-11-04 [20:19:26.635] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-04 [20:19:26.644] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-04 [20:19:26.905] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA11+dev
+2021-11-04 [20:19:26.905] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-04 [20:19:27.315] [Server thread/INFO]: Loading resource packs...
+2021-11-04 [20:19:27.375] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-04 [20:19:27.396] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-04 [20:19:27.398] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-04 [20:19:27.412] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-04 [20:19:27.430] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-04 [20:19:27.433] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-04 [20:19:27.435] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-04 [20:19:27.437] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-04 [20:19:27.439] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-11-04 [20:19:27.445] [Server thread/INFO]: Loading HideCommands v1.0.10
+2021-11-04 [20:19:27.448] [Server thread/INFO]: Loading CommandDisabler v1.0.0
+2021-11-04 [20:19:27.452] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-11-04 [20:19:27.460] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2021-11-04 [20:19:27.476] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Thu_Nov_4-20.19.27-WIB_2021.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2021-11-04 [20:19:27.477] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
+2021-11-04 [20:19:29.312] [Server thread/INFO]: [Update Checker] You're running a Beta build, but you're receiving update notifications for Stable builds.
+2021-11-04 [20:19:50.053] [Server thread/INFO]: [Update Checker] To get notified about new Beta or Development builds, change 'preferred-channel' in your pocketmine.yml to 'beta' or 'development'.
