@@ -1,0 +1,9 @@
+---
+name: HideCommands
+version: 1.0.10
+main: Himbeer\HideCommands\Main
+api: 4.0.0
+author: Himbeer
+website: himbeer.me
+description: Remove specific commands from the in-game command suggestions.
+...

@@ -1,0 +1,6 @@
+---
+mode: "blacklist"
+commands:
+  - "ppinfo"
+  - "snpc"
+...

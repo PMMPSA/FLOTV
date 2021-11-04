@@ -1,0 +1,8 @@
+Disabled-Commands:
+  - plugins
+  - version
+  - checkperm
+  - kill
+  - msg
+  - clear
+  - list

@@ -1,0 +1,7 @@
+---
+name: TNTManagement
+version: 0.0.1
+main: NhanAZ\TNTManagement\Main
+api: 4.0.0-BETA5
+src-namespace-prefix: NhanAZ\TNTManagement
+...

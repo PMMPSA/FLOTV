@@ -1,0 +1,7 @@
+---
+name: ChatManager
+version: 0.0.1
+main: NhanAZ\ChatManager\Main
+api: 4.0.0-BETA5
+src-namespace-prefix: NhanAZ\ChatManager
+...

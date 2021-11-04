@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "FLOTV Resource Pack",
+        "name": "FLOTV",
+        "uuid": "f9f3ee5c-c5b7-4200-917a-c526b7cbaa9f",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 17, 30]
+    },
+    "modules": [
+        {
+            "description": "FLOTV Resource Pack",
+            "type": "resources",
+            "uuid": "f2003918-ba98-46c4-9224-0e54064738e4",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors":["NhanAZ"],
+        "url":"https://github.com/NhanAZ"
+    }
+}
