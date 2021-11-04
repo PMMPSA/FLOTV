@@ -26,7 +26,7 @@ class Main extends PluginBase implements Listener
 		//$player->sendMessage("§e>§c Hãy cảm nhận bằng cách im lặng nhất...");
 		$this->getScheduler()->scheduleDelayedTask (new ClosureTask(function () use ($player, $msg) : void {
 			foreach($this->getServer()->getOnlinePlayers() as $players) {
-			$players->sendMessage("{PLAYER}§l§8" . $player->getName() . " §e>> §7" . $msg);
+			$players->sendMessage("{PLAYER} §l§8" . $player->getName() . " §e>> §7" . $msg);
 		}
 		}), 100);
 	}

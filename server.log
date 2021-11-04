@@ -6793,3 +6793,212 @@
 2021-11-04 [20:33:34.333] [Server thread/INFO]: Disabling PureChat v1.4.11
 2021-11-04 [20:33:34.333] [Server thread/INFO]: Unloading world "FLOTV"
 2021-11-04 [20:33:35.027] [Server thread/INFO]: Stopping other threads
+2021-11-04 [20:46:37.125] [Server thread/INFO]: Loading server configuration
+2021-11-04 [20:46:37.158] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-04 [20:46:37.158] [Server thread/WARNING]: ----------------------------------------
+2021-11-04 [20:46:37.159] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-04 [20:46:37.159] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-04 [20:46:37.159] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-04 [20:46:37.159] [Server thread/WARNING]: ----------------------------------------
+2021-11-04 [20:46:37.164] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-04 [20:46:37.172] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-04 [20:46:37.431] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA11+dev
+2021-11-04 [20:46:37.432] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-04 [20:46:37.805] [Server thread/INFO]: Loading resource packs...
+2021-11-04 [20:46:37.867] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-04 [20:46:37.906] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-04 [20:46:37.909] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-04 [20:46:37.927] [Server thread/INFO]: Loading HideCommands v1.0.10
+2021-11-04 [20:46:37.932] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-04 [20:46:37.935] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-04 [20:46:37.938] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-04 [20:46:37.957] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-04 [20:46:37.968] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-04 [20:46:37.968] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-04 [20:46:37.969] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-04 [20:46:37.986] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-04 [20:46:37.989] [Server thread/INFO]: Loading ChatThin v1.4.1
+2021-11-04 [20:46:37.993] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-04 [20:46:37.996] [Server thread/INFO]: Loading CommandDisabler v1.0.0
+2021-11-04 [20:46:37.998] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-04 [20:46:38.000] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-04 [20:46:38.007] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-11-04 [20:46:38.077] [Server thread/INFO]: Preparing world "FLOTV"
+2021-11-04 [20:46:38.085] [Server thread/INFO]: Enabling HideCommands v1.0.10
+2021-11-04 [20:46:38.089] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-11-04 [20:46:38.091] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-11-04 [20:46:38.093] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-11-04 [20:46:38.123] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-11-04 [20:46:38.148] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-11-04 [20:46:38.200] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-11-04 [20:46:38.201] [Server thread/INFO]: Enabling ChatThin v1.4.1
+2021-11-04 [20:46:38.201] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-11-04 [20:46:38.201] [Server thread/INFO]: Enabling CommandDisabler v1.0.0
+2021-11-04 [20:46:38.202] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-11-04 [20:46:38.204] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-11-04 [20:46:38.204] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-11-04 [20:46:38.263] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-11-04 [20:46:38.263] [Server thread/INFO]: Default game type: Creative Mode
+2021-11-04 [20:46:38.263] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-11-04 [20:46:38.264] [Server thread/INFO]: Done (1.14s)! For help, type "help" or "?"
+2021-11-04 [20:48:18.766] [Server thread/INFO]: [NetworkSession: 192.168.1.109 47287] Session opened
+2021-11-04 [20:48:18.800] [Server thread/INFO]: [NetworkSession: 192.168.1.109 47287] Player: NhanAZ
+2021-11-04 [20:48:22.151] [Server thread/INFO]: NhanAZ[/192.168.1.109:47287] logged in with entity id 1 at (FLOTV, 256.343, 65, 256.7054)
+2021-11-04 [20:48:36.537] [Server thread/CRITICAL]: ErrorException: "Undefined property: pocketmine\network\mcpe\protocol\types\command\CommandData::$commandDescription" (EXCEPTION) in "plugins/ChatThin/src/kim/present/chatthin/ChatThin" at line 37
+--- Stack trace ---
+  #0 plugins/ChatThin/src/kim/present/chatthin/ChatThin(37): pocketmine\errorhandler\ErrorToExceptionHandler::handle(integer 2, string[99] Undefined property: pocketmine\network\mcpe\protocol\types\command\CommandData::, string[63] D:\FLOTV\plugins\ChatThin\src\kim\present\chatthin\ChatThin.php, integer 37)
+  #1 pmsrc/src/event/RegisteredListener(75): kim\present\chatthin\ChatThin->onDataPacketSendEvent(object pocketmine\event\server\DataPacketSendEvent#134739)
+  #2 pmsrc/src/event/Event(62): pocketmine\event\RegisteredListener->callEvent(object pocketmine\event\server\DataPacketSendEvent#134739)
+  #3 pmsrc/src/network/mcpe/NetworkSession(412): pocketmine\event\Event->call()
+  #4 pmsrc/src/network/mcpe/NetworkSession(872): pocketmine\network\mcpe\NetworkSession->sendDataPacket(object pocketmine\network\mcpe\protocol\AvailableCommandsPacket#134738)
+  #5 pmsrc/src/network/mcpe/NetworkSession(261): pocketmine\network\mcpe\NetworkSession->syncAvailableCommands()
+  #6 pmsrc/src/permission/PermissibleInternal(180): pocketmine\network\mcpe\NetworkSession->pocketmine\network\mcpe\{closure}(array[6])
+  #7 pmsrc/src/timings/TimingsHandler(174): pocketmine\permission\PermissibleInternal->pocketmine\permission\{closure}()
+  #8 pmsrc/src/permission/PermissibleInternal(183): pocketmine\timings\TimingsHandler->time(object Closure#134730)
+  #9 pmsrc/src/permission/PermissibleInternal(132): pocketmine\permission\PermissibleInternal->recalculatePermissions()
+  #10 pmsrc/src/permission/PermissibleDelegateTrait(67): pocketmine\permission\PermissibleInternal->removeAttachment(object pocketmine\permission\PermissionAttachment#24751)
+  #11 pmsrc/src/permission/PermissibleDelegateTrait(67): pocketmine\permission\PermissibleBase->removeAttachment(object pocketmine\permission\PermissionAttachment#24751)
+  #12 plugins/PurePerms/src/_64FF00/PurePerms/PurePerms(713): pocketmine\player\Player->removeAttachment(object pocketmine\permission\PermissionAttachment#24751)
+  #13 plugins/PurePerms/src/_64FF00/PurePerms/PPListener(120): _64FF00\PurePerms\PurePerms->unregisterPlayer(object pocketmine\player\Player#24813)
+  #14 pmsrc/src/event/RegisteredListener(75): _64FF00\PurePerms\PPListener->onPlayerQuit(object pocketmine\event\player\PlayerQuitEvent#134715)
+  #15 pmsrc/src/event/Event(62): pocketmine\event\RegisteredListener->callEvent(object pocketmine\event\player\PlayerQuitEvent#134715)
+  #16 pmsrc/src/player/Player(1983): pocketmine\event\Event->call()
+  #17 pmsrc/src/network/mcpe/NetworkSession(578): pocketmine\player\Player->onPostDisconnect(string[7] timeout, NULL )
+  #18 pmsrc/src/network/mcpe/NetworkSession(511): pocketmine\network\mcpe\NetworkSession->pocketmine\network\mcpe\{closure}()
+  #19 pmsrc/src/network/mcpe/NetworkSession(580): pocketmine\network\mcpe\NetworkSession->tryDisconnect(object Closure#134697, string[7] timeout)
+  #20 pmsrc/src/network/mcpe/raklib/RakLibInterface(151): pocketmine\network\mcpe\NetworkSession->onClientDisconnect(string[7] timeout)
+  #21 pmsrc/vendor/pocketmine/raklib-ipc/src/RakLibToUserThreadMessageReceiver(75): pocketmine\network\mcpe\raklib\RakLibInterface->onClientDisconnect(integer 0, string[7] timeout)
+  #22 pmsrc/src/network/mcpe/raklib/RakLibInterface(122): raklib\server\ipc\RakLibToUserThreadMessageReceiver->handle(object pocketmine\network\mcpe\raklib\RakLibInterface#294)
+  #23 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(123): pocketmine\network\mcpe\raklib\RakLibInterface->pocketmine\network\mcpe\raklib\{closure}()
+  #24 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(82): pocketmine\snooze\SleeperHandler->processNotifications()
+  #25 pmsrc/src/Server(1586): pocketmine\snooze\SleeperHandler->sleepUntil(double 1636033716.5747)
+  #26 pmsrc/src/Server(1016): pocketmine\Server->tickProcessor()
+  #27 pmsrc/src/PocketMine(296): pocketmine\Server->__construct(object BaseClassLoader#2, object pocketmine\utils\MainLogger#3, string[9] D:\FLOTV\, string[17] D:\FLOTV\plugins\)
+  #28 pmsrc/src/PocketMine(319): pocketmine\server()
+  #29 pmsrc(11): require(string[53] phar://D:/FLOTV/PocketMine-MP.phar/src/PocketMine.php)
+--- End of exception information ---
+2021-11-04 [20:48:36.545] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2021-11-04 [20:48:36.562] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Thu_Nov_4-20.48.36-WIB_2021.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2021-11-04 [20:48:36.563] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
+2021-11-04 [20:48:36.565] [Server thread/INFO]: Disabling HideCommands v1.0.10
+2021-11-04 [20:48:36.567] [Server thread/INFO]: Disabling ChatManager v0.0.1
+2021-11-04 [20:48:36.567] [Server thread/INFO]: Disabling Tags v0.0.1
+2021-11-04 [20:48:36.568] [Server thread/INFO]: Disabling PurePerms v1.5.0-legacy
+2021-11-04 [20:48:36.569] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta2
+2021-11-04 [20:48:36.569] [Server thread/INFO]: Disabling Sound v0.0.1
+2021-11-04 [20:48:36.570] [Server thread/INFO]: Disabling ChatThin v1.4.1
+2021-11-04 [20:48:36.570] [Server thread/INFO]: Disabling NotificationSystem v0.0.1
+2021-11-04 [20:48:36.571] [Server thread/INFO]: Disabling CommandDisabler v1.0.0
+2021-11-04 [20:48:36.571] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2021-11-04 [20:48:36.572] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-11-04 [20:48:36.572] [Server thread/INFO]: Unloading world "FLOTV"
+2021-11-04 [20:48:36.662] [Server thread/WARNING]: [World: FLOTV] 1 leaked entities found in ungenerated chunk 16 16 during unload, they won't be saved!
+2021-11-04 [20:49:29.938] [Server thread/INFO]: Loading server configuration
+2021-11-04 [20:49:29.969] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-04 [20:49:29.969] [Server thread/WARNING]: ----------------------------------------
+2021-11-04 [20:49:29.969] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-04 [20:49:29.969] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-04 [20:49:29.969] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-04 [20:49:29.970] [Server thread/WARNING]: ----------------------------------------
+2021-11-04 [20:49:29.974] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-04 [20:49:29.985] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-04 [20:49:30.243] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA11+dev
+2021-11-04 [20:49:30.244] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-04 [20:49:30.633] [Server thread/INFO]: Loading resource packs...
+2021-11-04 [20:49:30.690] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-04 [20:49:30.706] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-04 [20:49:30.709] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-04 [20:49:30.723] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-04 [20:49:30.726] [Server thread/INFO]: Loading CommandDisabler v1.0.0
+2021-11-04 [20:49:30.728] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-04 [20:49:30.730] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-04 [20:49:30.748] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-04 [20:49:30.751] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-04 [20:49:30.754] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-04 [20:49:30.757] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-04 [20:49:30.777] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-04 [20:49:30.787] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-04 [20:49:30.787] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-04 [20:49:30.788] [Server thread/INFO]: Loading HideCommands v1.0.10
+2021-11-04 [20:49:30.790] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-04 [20:49:30.795] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-11-04 [20:49:30.866] [Server thread/INFO]: Preparing world "FLOTV"
+2021-11-04 [20:49:30.875] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-11-04 [20:49:30.878] [Server thread/INFO]: Enabling CommandDisabler v1.0.0
+2021-11-04 [20:49:30.879] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-11-04 [20:49:30.882] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-11-04 [20:49:30.930] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-11-04 [20:49:30.930] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-11-04 [20:49:30.932] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-11-04 [20:49:30.934] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-11-04 [20:49:30.963] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-11-04 [20:49:30.990] [Server thread/INFO]: Enabling HideCommands v1.0.10
+2021-11-04 [20:49:31.031] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-11-04 [20:49:31.031] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-11-04 [20:49:31.096] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-11-04 [20:49:31.096] [Server thread/INFO]: Default game type: Creative Mode
+2021-11-04 [20:49:31.097] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-11-04 [20:49:31.097] [Server thread/INFO]: Done (1.162s)! For help, type "help" or "?"
+2021-11-04 [20:49:34.029] [Server thread/INFO]: [Update Checker] You're running a Beta build, but you're receiving update notifications for Stable builds.
+2021-11-04 [20:49:34.029] [Server thread/INFO]: [Update Checker] To get notified about new Beta or Development builds, change 'preferred-channel' in your pocketmine.yml to 'beta' or 'development'.
+2021-11-04 [20:49:34.552] [Server thread/INFO]: [NetworkSession: 192.168.1.109 44191] Session opened
+2021-11-04 [20:49:34.587] [Server thread/INFO]: [NetworkSession: 192.168.1.109 44191] Player: NhanAZ
+2021-11-04 [20:49:35.286] [Server thread/INFO]: NhanAZ[/192.168.1.109:44191] logged in with entity id 1 at (FLOTV, 256.343, 65, 256.7054)
+2021-11-04 [20:49:40.886] [Server thread/INFO]: {JOIN} NhanAZ đã tham gia máy chủ...
+2021-11-04 [20:50:55.125] [Server thread/INFO]: [CONSOLE: Set the time to 6001]
+2021-11-04 [20:51:28.915] [Server thread/INFO]: [CONSOLE: Teleported NhanAZ to 256.5, 65, 256.5]
+2021-11-04 [20:53:31.275] [Server thread/INFO]: [NetworkSession: 103.249.23.99 26170] Session opened
+2021-11-04 [20:53:31.353] [Server thread/INFO]: [NetworkSession: 103.249.23.99 26170] Player: PuckVN
+2021-11-04 [20:53:31.353] [Server thread/INFO]: [NetworkSession: PuckVN] Session closed due to Server is whitelisted
+2021-11-04 [20:53:42.275] [Server thread/INFO]: [NetworkSession: 103.249.23.99 26170] Session opened
+2021-11-04 [20:53:42.353] [Server thread/INFO]: [NetworkSession: 103.249.23.99 26170] Player: PuckVN
+2021-11-04 [20:53:42.354] [Server thread/INFO]: [NetworkSession: PuckVN] Session closed due to Server is whitelisted
+2021-11-04 [20:54:10.031] [Server thread/INFO]: [CONSOLE: Added PuckVN to the whitelist]
+2021-11-04 [20:54:30.161] [Server thread/INFO]: [NetworkSession: 103.249.23.121 13345] Session opened
+2021-11-04 [20:54:30.207] [Server thread/INFO]: [NetworkSession: 103.249.23.121 13345] Player: PuckVN
+2021-11-04 [20:54:34.127] [Server thread/INFO]: PuckVN[/103.249.23.121:13345] logged in with entity id 2 at (FLOTV, 256, 65, 256)
+2021-11-04 [20:54:39.795] [Server thread/INFO]: {JOIN} PuckVN đã tham gia máy chủ...
+2021-11-04 [20:55:15.582] [Server thread/INFO]: [ChatManager] > NhanAZ : Có nghe nhạc k?
+2021-11-04 [20:55:26.557] [Server thread/INFO]: [ChatManager] > PuckVN : no
+2021-11-04 [20:55:31.757] [Server thread/INFO]: [ChatManager] > PuckVN : no
+2021-11-04 [20:55:40.195] [Server thread/INFO]: [ChatManager] > NhanAZ : Mở lớn hết mức đi
+2021-11-04 [20:55:53.656] [Server thread/INFO]: [ChatManager] > PuckVN : r
+2021-11-04 [20:56:05.112] [Server thread/INFO]: [ChatManager] > NhanAZ : Nghe k
+2021-11-04 [20:56:27.165] [Server thread/INFO]: [ChatManager] > PuckVN : ko
+2021-11-04 [20:56:37.554] [Server thread/INFO]: [ChatManager] > NhanAZ : Ủa lỗi hả
+2021-11-04 [20:56:40.800] [Server thread/INFO]: [ChatManager] > NhanAZ : ra vô lại đi
+2021-11-04 [20:56:48.940] [Server thread/INFO]: {INFO} PuckVN đã rời khỏi máy chủ...
+2021-11-04 [20:56:48.947] [Server thread/INFO]: [NetworkSession: PuckVN] Session closed due to client disconnect
+2021-11-04 [20:56:53.539] [Server thread/INFO]: [PureChat:64FF00] Usage: /setnametag <group> <world> <format>
+2021-11-04 [20:56:57.205] [Server thread/INFO]: [NetworkSession: 103.249.23.121 13345] Session opened
+2021-11-04 [20:56:57.269] [Server thread/INFO]: [NetworkSession: 103.249.23.121 13345] Player: PuckVN
+2021-11-04 [20:56:59.205] [Server thread/INFO]: [PureChat:64FF00] Usage: /setnametag <group> <world> <format>
+2021-11-04 [20:57:06.566] [Server thread/INFO]: PuckVN[/103.249.23.121:13345] logged in with entity id 3 at (FLOTV, 260.1437, 64, 253.9695)
+2021-11-04 [20:57:11.674] [Server thread/INFO]: {JOIN} PuckVN đã tham gia máy chủ...
+2021-11-04 [20:57:23.611] [Server thread/INFO]: [ChatManager] > PuckVN : no
+2021-11-04 [20:57:33.621] [Server thread/INFO]: [PureChat:64FF00] You set the nametag of the group to {PLAYER} {display_name}.
+2021-11-04 [20:57:34.000] [Server thread/INFO]: [ChatManager] > PuckVN : lag wa zay
+2021-11-04 [20:57:39.303] [Server thread/INFO]: ML >> Added NhanAZ to the group successfully.
+2021-11-04 [20:57:43.610] [Server thread/INFO]: [ChatManager] > PuckVN : chat 5g nó ms lên @@
+2021-11-04 [20:57:49.997] [Server thread/INFO]: ML >> Added PuckVN to the group successfully.
+2021-11-04 [20:58:17.030] [Server thread/INFO]: [ChatManager] > NhanAZ : U delay chat á
+2021-11-04 [20:58:20.624] [Server thread/INFO]: [ChatManager] > NhanAZ : K phải lag
+2021-11-04 [20:58:29.389] [Server thread/INFO]: [ChatManager] > PuckVN : um
+2021-11-04 [20:58:30.515] [Server thread/INFO]: {INFO} NhanAZ đã rời khỏi máy chủ...
+2021-11-04 [20:58:30.532] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2021-11-04 [20:58:34.422] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2021-11-04 [20:58:34.468] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
+2021-11-04 [20:58:34.469] [Server thread/INFO]: Disabling NotificationSystem v0.0.1
+2021-11-04 [20:58:34.471] [Server thread/INFO]: Disabling CommandDisabler v1.0.0
+2021-11-04 [20:58:34.475] [Server thread/INFO]: Disabling ChatManager v0.0.1
+2021-11-04 [20:58:34.476] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta2
+2021-11-04 [20:58:34.476] [Server thread/INFO]: Disabling Sound v0.0.1
+2021-11-04 [20:58:34.477] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2021-11-04 [20:58:34.477] [Server thread/INFO]: Disabling Tags v0.0.1
+2021-11-04 [20:58:34.478] [Server thread/INFO]: Disabling PurePerms v1.5.0-legacy
+2021-11-04 [20:58:34.479] [Server thread/INFO]: Disabling HideCommands v1.0.10
+2021-11-04 [20:58:34.479] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-11-04 [20:58:34.480] [Server thread/INFO]: PuckVN left the game
+2021-11-04 [20:58:34.492] [Server thread/INFO]: [NetworkSession: PuckVN] Session closed due to Máy chủ đã đóng
+2021-11-04 [20:58:34.492] [Server thread/INFO]: Unloading world "FLOTV"
+2021-11-04 [20:58:35.160] [Server thread/INFO]: Stopping other threads
