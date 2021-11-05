@@ -83,7 +83,7 @@ class VirionClassLoader extends BaseClassLoader{
 		return null;
 	}
 
-	public function loadClass($name) : ?bool{
+	public function loadClass(String $name) : bool{
 		try{
 			return parent::loadClass($name);
 		}catch(\Exception $e){
