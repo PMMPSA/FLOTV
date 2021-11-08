@@ -5,7 +5,7 @@ enable-multiworld-chat: false
 groups:
   Guest:
     chat: '&7[Guest] &f{fac_rank}{fac_name}&a {display_name} &7> &f{msg}'
-    nametag: '{PLAYER} {display_name}'
+    nametag: ' §l§f{display_name}'
     worlds: []
   Admin:
     chat: '&c[Admin] &7{fac_rank}{fac_name}&6 {display_name} &d>&b {msg}'
