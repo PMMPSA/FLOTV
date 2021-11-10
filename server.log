@@ -7803,3 +7803,196 @@
 2021-11-06 [20:28:19.795] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
 2021-11-06 [20:28:19.799] [Server thread/INFO]: Done (1.663s)! For help, type "help" or "?"
 2021-11-06 [20:28:27.689] [Server thread/INFO]: [Server] Xin cho, y l ting Vit
+2021-11-10 [09:39:18.543] [Server thread/INFO]: Loading server configuration
+2021-11-10 [09:39:18.578] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-10 [09:39:18.578] [Server thread/WARNING]: ----------------------------------------
+2021-11-10 [09:39:18.578] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-10 [09:39:18.578] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-10 [09:39:18.579] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-10 [09:39:18.579] [Server thread/WARNING]: ----------------------------------------
+2021-11-10 [09:39:18.585] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-10 [09:39:18.593] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-10 [09:39:18.900] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA12+dev
+2021-11-10 [09:39:18.900] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-10 [09:39:19.349] [Server thread/INFO]: Loading resource packs...
+2021-11-10 [09:39:19.414] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-10 [09:39:19.429] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-10 [09:39:19.431] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-10 [09:39:19.450] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:39:19.456] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-11-10 [09:39:19.457] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-11-10 [09:39:19.464] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-10 [09:39:19.467] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-10 [09:39:19.489] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-10 [09:39:19.500] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-10 [09:39:19.500] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-10 [09:39:19.500] [Server thread/INFO]: Loading Coordinates v0.0.1
+2021-11-10 [09:39:19.503] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:39:19.506] [Server thread/INFO]: Loading ChatThin v1.4.1
+2021-11-10 [09:39:19.509] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-10 [09:39:19.512] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-10 [09:39:19.514] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-10 [09:39:19.519] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-10 [09:39:19.523] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-10 [09:39:19.545] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-10 [09:39:19.551] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-11-10 [09:39:19.552] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:39:19.614] [Server thread/INFO]: Preparing world "FLOTV"
+2021-11-10 [09:39:19.624] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-11-10 [09:39:19.629] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-11-10 [09:39:19.666] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-11-10 [09:39:19.688] [Server thread/INFO]: Enabling Coordinates v0.0.1
+2021-11-10 [09:39:19.689] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:39:19.692] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-11-10 [09:39:19.774] [Server thread/INFO]: Enabling ChatThin v1.4.1
+2021-11-10 [09:39:19.774] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-11-10 [09:39:19.775] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-11-10 [09:39:19.775] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-11-10 [09:39:19.775] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-11-10 [09:39:19.776] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-11-10 [09:39:19.836] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-11-10 [09:39:19.836] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-11-10 [09:39:19.897] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-11-10 [09:39:19.897] [Server thread/INFO]: Default game type: Creative Mode
+2021-11-10 [09:39:19.899] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-11-10 [09:39:19.903] [Server thread/INFO]: Done (1.362s)! For help, type "help" or "?"
+2021-11-10 [09:39:23.344] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2021-11-10 [09:39:23.369] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
+2021-11-10 [09:39:23.371] [Server thread/INFO]: Disabling DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:39:23.371] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2021-11-10 [09:39:23.375] [Server thread/INFO]: Disabling PurePerms v1.5.0-legacy
+2021-11-10 [09:39:23.375] [Server thread/INFO]: Disabling Coordinates v0.0.1
+2021-11-10 [09:39:23.376] [Server thread/INFO]: Disabling SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:39:23.376] [Server thread/INFO]: Disabling ChatThin v1.4.1
+2021-11-10 [09:39:23.377] [Server thread/INFO]: Disabling NotificationSystem v0.0.1
+2021-11-10 [09:39:23.378] [Server thread/INFO]: Disabling Sound v0.0.1
+2021-11-10 [09:39:23.378] [Server thread/INFO]: Disabling Tags v0.0.1
+2021-11-10 [09:39:23.379] [Server thread/INFO]: Disabling ChatManager v0.0.1
+2021-11-10 [09:39:23.379] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta2
+2021-11-10 [09:39:23.380] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-11-10 [09:39:23.380] [Server thread/INFO]: Unloading world "FLOTV"
+2021-11-10 [09:39:24.512] [Server thread/INFO]: Stopping other threads
+2021-11-10 [09:44:08.773] [Server thread/INFO]: Loading server configuration
+2021-11-10 [09:44:08.835] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-10 [09:44:08.835] [Server thread/WARNING]: ----------------------------------------
+2021-11-10 [09:44:08.836] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-10 [09:44:08.836] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-10 [09:44:08.836] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-10 [09:44:08.836] [Server thread/WARNING]: ----------------------------------------
+2021-11-10 [09:44:08.851] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-10 [09:44:08.868] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-10 [09:44:09.276] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA13+dev
+2021-11-10 [09:44:09.277] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-10 [09:44:09.825] [Server thread/INFO]: Loading resource packs...
+2021-11-10 [09:44:09.885] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-10 [09:44:09.904] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-10 [09:44:09.907] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-10 [09:44:09.919] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-10 [09:44:09.921] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-10 [09:44:09.924] [Server thread/INFO]: Loading ChatThin v1.4.1
+2021-11-10 [09:44:09.927] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-10 [09:44:09.929] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-10 [09:44:09.948] [Server thread/INFO]: Loading Coordinates v0.0.1
+2021-11-10 [09:44:09.950] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:44:09.953] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-10 [09:44:09.975] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-10 [09:44:09.985] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-10 [09:44:09.985] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-10 [09:44:09.985] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-10 [09:44:09.987] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-10 [09:44:09.991] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:44:09.998] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-11-10 [09:44:09.998] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-11-10 [09:44:10.004] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-10 [09:44:10.013] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-11-10 [09:44:10.014] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:44:10.082] [Server thread/INFO]: Preparing world "FLOTV"
+2021-11-10 [09:44:10.091] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-11-10 [09:44:10.096] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-11-10 [09:44:10.098] [Server thread/INFO]: Enabling ChatThin v1.4.1
+2021-11-10 [09:44:10.098] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-11-10 [09:44:10.099] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-11-10 [09:44:10.153] [Server thread/INFO]: Enabling Coordinates v0.0.1
+2021-11-10 [09:44:10.153] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:44:10.156] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-11-10 [09:44:10.247] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-11-10 [09:44:10.284] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-11-10 [09:44:10.306] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-11-10 [09:44:10.308] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-11-10 [09:44:10.308] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-11-10 [09:44:10.308] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-11-10 [09:44:10.372] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-11-10 [09:44:10.402] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-11-10 [09:44:10.403] [Server thread/INFO]: Default game type: Creative Mode
+2021-11-10 [09:44:10.405] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-11-10 [09:44:10.405] [Server thread/INFO]: Done (1.636s)! For help, type "help" or "?"
+2021-11-10 [09:44:57.494] [Server thread/INFO]: Loading server configuration
+2021-11-10 [09:44:57.526] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-10 [09:44:57.526] [Server thread/WARNING]: ----------------------------------------
+2021-11-10 [09:44:57.527] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-10 [09:44:57.527] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-10 [09:44:57.527] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-10 [09:44:57.527] [Server thread/WARNING]: ----------------------------------------
+2021-11-10 [09:44:57.532] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-10 [09:44:57.541] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-10 [09:44:57.822] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA13+dev
+2021-11-10 [09:44:57.823] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-10 [09:44:58.250] [Server thread/INFO]: Loading resource packs...
+2021-11-10 [09:44:58.315] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-10 [09:44:58.334] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-10 [09:44:58.337] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-10 [09:44:58.353] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-10 [09:44:58.356] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-10 [09:44:58.373] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-10 [09:44:58.382] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-10 [09:44:58.382] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-10 [09:44:58.382] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:44:58.386] [Server thread/INFO]: Loading Coordinates v0.0.1
+2021-11-10 [09:44:58.388] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-10 [09:44:58.391] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-10 [09:44:58.393] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-10 [09:44:58.395] [Server thread/INFO]: Loading ChatThin v1.4.1
+2021-11-10 [09:44:58.397] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:44:58.404] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-11-10 [09:44:58.404] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-11-10 [09:44:58.410] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-10 [09:44:58.415] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-10 [09:44:58.449] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-10 [09:44:58.464] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-11-10 [09:44:58.465] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:44:58.532] [Server thread/INFO]: Preparing world "FLOTV"
+2021-11-10 [09:44:58.541] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-11-10 [09:44:58.545] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-11-10 [09:44:58.583] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-11-10 [09:44:58.609] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:44:58.611] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-11-10 [09:44:58.697] [Server thread/INFO]: Enabling Coordinates v0.0.1
+2021-11-10 [09:44:58.698] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-11-10 [09:44:58.699] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-11-10 [09:44:58.699] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-11-10 [09:44:58.701] [Server thread/INFO]: Enabling ChatThin v1.4.1
+2021-11-10 [09:44:58.701] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-11-10 [09:44:58.702] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-11-10 [09:44:58.757] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-11-10 [09:44:58.757] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-11-10 [09:44:58.813] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-11-10 [09:44:58.841] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-11-10 [09:44:58.841] [Server thread/INFO]: Default game type: Creative Mode
+2021-11-10 [09:44:58.842] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-11-10 [09:44:58.844] [Server thread/INFO]: Done (1.352s)! For help, type "help" or "?"
+2021-11-10 [09:45:00.838] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2021-11-10 [09:45:00.860] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
+2021-11-10 [09:45:00.861] [Server thread/INFO]: Disabling Sound v0.0.1
+2021-11-10 [09:45:00.861] [Server thread/INFO]: Disabling PurePerms v1.5.0-legacy
+2021-11-10 [09:45:00.865] [Server thread/INFO]: Disabling SimpleNPC v3.0.0-snapshot
+2021-11-10 [09:45:00.865] [Server thread/INFO]: Disabling Coordinates v0.0.1
+2021-11-10 [09:45:00.866] [Server thread/INFO]: Disabling Tags v0.0.1
+2021-11-10 [09:45:00.866] [Server thread/INFO]: Disabling NotificationSystem v0.0.1
+2021-11-10 [09:45:00.866] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2021-11-10 [09:45:00.867] [Server thread/INFO]: Disabling ChatThin v1.4.1
+2021-11-10 [09:45:00.868] [Server thread/INFO]: Disabling DEVirion v1.2.5-ALPHA12
+2021-11-10 [09:45:00.868] [Server thread/INFO]: Disabling ChatManager v0.0.1
+2021-11-10 [09:45:00.869] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta2
+2021-11-10 [09:45:00.869] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-11-10 [09:45:00.870] [Server thread/INFO]: Unloading world "FLOTV"
+2021-11-10 [09:45:01.795] [Server thread/INFO]: Stopping other threads
