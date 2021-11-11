@@ -1272,7 +1272,7 @@ class MyPlot extends PluginBase
 		$this->reloadConfig();
 		@mkdir($this->getDataFolder() . "worlds");
 		$this->getLogger()->debug(TF::BOLD . "Loading MyPlot Generator");
-		GeneratorManager::getInstance()->addGenerator(MyPlotGenerator::class, "myplot");
+		GeneratorManager::getInstance()->addGenerator(MyPlotGenerator::class, "myplot", fn() => null);
 		$this->getLogger()->debug(TF::BOLD . "Loading Languages");
 		// Loading Languages
 		/** @var string $lang */
