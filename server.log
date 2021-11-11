@@ -8312,3 +8312,63 @@
 2021-11-11 [08:37:42.659] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
 2021-11-11 [08:37:42.719] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Thu_Nov_11-08.37.42-WIB_2021.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 2021-11-11 [08:37:42.726] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
+2021-11-11 [08:58:38.725] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2021-11-11 [08:58:38.759] [Server thread/INFO]: Loading server configuration
+2021-11-11 [08:58:38.816] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-11 [08:58:38.817] [Server thread/WARNING]: ----------------------------------------
+2021-11-11 [08:58:38.822] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-11 [08:58:38.822] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-11 [08:58:38.823] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-11 [08:58:38.823] [Server thread/WARNING]: ----------------------------------------
+2021-11-11 [08:58:38.839] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-11 [08:58:38.867] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-11 [08:58:39.360] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA13+dev
+2021-11-11 [08:58:39.363] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-11 [08:58:42.159] [Server thread/INFO]: Loading resource packs...
+2021-11-11 [08:58:42.384] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-11 [08:58:42.443] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-11 [08:58:42.448] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-11 [08:58:42.494] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-11 [08:58:42.552] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-11 [08:58:42.565] [Server thread/INFO]: Loading ChatThin v1.4.1
+2021-11-11 [08:58:42.570] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-11-11 [08:58:42.581] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-11-11 [08:58:42.581] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-11-11 [08:58:42.589] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-11 [08:58:42.597] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-11 [08:58:42.601] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-11-11 [08:58:42.607] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-11 [08:58:42.612] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-11 [08:58:42.617] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-11 [08:58:42.642] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-11 [08:58:42.661] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-11 [08:58:42.661] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-11 [08:58:42.661] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-11 [08:58:42.676] [Server thread/INFO]: Loading MyPlot v1.11.1
+2021-11-11 [08:58:42.725] [Server thread/CRITICAL]: ArgumentCountError: "Too few arguments to function pocketmine\world\generator\GeneratorManager::addGenerator(), 2 passed in D:\FLOTV\plugins\MyPlot\src\MyPlot\MyPlot.php on line 1275 and at least 3 expected" (EXCEPTION) in "pmsrc/src/world/generator/GeneratorManager" at line 72
+--- Stack trace ---
+  #0 plugins/MyPlot/src/MyPlot/MyPlot(1275): pocketmine\world\generator\GeneratorManager->addGenerator(string[22] MyPlot\MyPlotGenerator, string[6] myplot)
+  #1 pmsrc/src/plugin/PluginBase(94): MyPlot\MyPlot->onLoad()
+  #2 pmsrc/src/plugin/PluginManager(214): pocketmine\plugin\PluginBase->__construct(object FolderPluginLoader\FolderPluginLoader#54, object pocketmine\Server#10, object pocketmine\plugin\PluginDescription#22978, string[23] D:/FLOTV/plugins/MyPlot, string[23] D:\FLOTV\plugins\MyPlot, object pocketmine\plugin\DiskResourceProvider#23211)
+  #3 pmsrc/src/plugin/PluginManager(357): pocketmine\plugin\PluginManager->internalLoadPlugin(string[23] D:\FLOTV\plugins\MyPlot, object FolderPluginLoader\FolderPluginLoader#54, object pocketmine\plugin\PluginDescription#22978)
+  #4 plugins/DevTools.phar/src/DevTools/DevTools(70): pocketmine\plugin\PluginManager->loadPlugins(string[17] D:\FLOTV\plugins\, array[1])
+  #5 pmsrc/src/plugin/PluginBase(136): DevTools\DevTools->onEnable()
+  #6 pmsrc/src/plugin/PluginManager(438): pocketmine\plugin\PluginBase->onEnableStateChange(true)
+  #7 pmsrc/src/Server(1365): pocketmine\plugin\PluginManager->enablePlugin(object DevTools\DevTools#22893)
+  #8 pmsrc/src/Server(988): pocketmine\Server->enablePlugins(object pocketmine\plugin\PluginEnableOrder#22898)
+  #9 pmsrc/src/PocketMine(301): pocketmine\Server->__construct(object BaseClassLoader#2, object pocketmine\utils\MainLogger#3, string[9] D:\FLOTV\, string[17] D:\FLOTV\plugins\)
+  #10 pmsrc/src/PocketMine(324): pocketmine\server()
+  #11 pmsrc(11): require(string[53] phar://D:/FLOTV/PocketMine-MP.phar/src/PocketMine.php)
+--- End of exception information ---
+2021-11-11 [08:58:42.725] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2021-11-11 [08:58:42.773] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Thu_Nov_11-08.58.42-WIB_2021.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2021-11-11 [08:58:42.775] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
