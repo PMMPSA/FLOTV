@@ -6,7 +6,7 @@
 settings:
   #Whether to send all strings translated to server locale or let the device handle them
   force-language: false
-  shutdown-message: "Server closed"
+  shutdown-message: "Máy chủ tạm đóng. Chân thành xin lỗi vì bất tiện này!"
   #Allow listing plugins via Query
   query-plugins: false
   #Enable plugin and core profiling by default
@@ -187,4 +187,4 @@ plugins:
   #Setting this to true will cause the legacy structure to be used where plugin data is placed inside the --plugins dir.
   #False will place plugin data under plugin_data under --data.
   #This option exists for backwards compatibility with existing installations.
-  legacy-data-dir: false
+  legacy-data-dir: true
