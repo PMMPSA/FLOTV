@@ -1266,20 +1266,21 @@ class MyPlot extends PluginBase
 
 	/* -------------------------- Non-API part -------------------------- */
 	public function onLoad() : void {
+		$this->getLogger()->debug(TF::BOLD."Loading...");
 		self::$instance = $this;
 		$this->getLogger()->debug(TF::BOLD . "Loading Configs");
 		$this->reloadConfig();
 		@mkdir($this->getDataFolder() . "worlds");
 		$this->getLogger()->debug(TF::BOLD . "Loading MyPlot Generator");
-		GeneratorManager::addGenerator(MyPlotGenerator::class, "myplot", true);
+		GeneratorManager::getInstance()->addGenerator(MyPlotGenerator::class, "myplot");
 		$this->getLogger()->debug(TF::BOLD . "Loading Languages");
 		// Loading Languages
 		/** @var string $lang */
-		$lang = $this->getConfig()->get("Language", BaseLang::FALLBACK_LANGUAGE);
+		$lang = $this->getConfig()->get("Language", Language::FALLBACK_LANGUAGE);
 		if((bool) $this->getConfig()->get("Custom Messages", false)) {
 			if(!file_exists($this->getDataFolder()."lang.ini")) {
 				/** @var string|resource $resource */
-				$resource = $this->getResource($lang.".ini") ?? file_get_contents($this->getFile()."resources/".BaseLang::FALLBACK_LANGUAGE.".ini");
+				$resource = $this->getResource($lang.".ini") ?? file_get_contents($this->getFile()."resources/".Language::FALLBACK_LANGUAGE.".ini");
 				file_put_contents($this->getDataFolder()."lang.ini", $resource);
 				if(!is_string($resource)) {
 					/** @var resource $resource */
