@@ -72,7 +72,7 @@ class Commands extends Command implements PluginOwned
 		$this->loadSubCommand(new ClearSubCommand($plugin, "clear"));
 		$this->loadSubCommand(new DisposeSubCommand($plugin, "dispose"));
 		$this->loadSubCommand(new ResetSubCommand($plugin, "reset"));
-		$this->loadSubCommand(new BiomeSubCommand($plugin, "biome"));
+		//$this->loadSubCommand(new BiomeSubCommand($plugin, "biome"));
 		$this->loadSubCommand(new HomeSubCommand($plugin, "home"));
 		$this->loadSubCommand(new HomesSubCommand($plugin, "homes"));
 		$this->loadSubCommand(new NameSubCommand($plugin, "name"));
