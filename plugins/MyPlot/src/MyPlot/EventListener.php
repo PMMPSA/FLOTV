@@ -133,13 +133,13 @@ class EventListener implements Listener
 	 * @param BlockPlaceEvent|BlockBreakEvent|PlayerInteractEvent|SignChangeEvent $event
 	 */
 	private function onEventOnBlock($event) : void {
-		if(!$event->getBlock()->getPos()->isValid())
+		if(!$event->getBlock()->getPosition()->isValid())
 			return;
-		$levelName = $event->getBlock()->getPos()->getWorld()->getFolderName();
+		$levelName = $event->getBlock()->getPosition()->getWorld()->getFolderName();
 		if(!$this->plugin->isLevelLoaded($levelName)) {
 			return;
 		}
-		$plot = $this->plugin->getPlotByPosition($event->getBlock()->getPos());
+		$plot = $this->plugin->getPlotByPosition($event->getBlock()->getPosition());
 		if($plot !== null) {
 			$ev = new MyPlotBlockEvent($plot, $event->getBlock(), $event->getPlayer(), $event);
 			if($event->isCancelled()) {
@@ -178,8 +178,8 @@ class EventListener implements Listener
 			}
 		}elseif($event->getPlayer()->hasPermission("myplot.admin.build.road"))
 			return;
-		elseif($this->plugin->isPositionBorderingPlot($event->getBlock()->getPos()) and $this->plugin->getLevelSettings($levelName)->editBorderBlocks) {
-			$plot = $this->plugin->getPlotBorderingPosition($event->getBlock()->getPos());
+		elseif($this->plugin->isPositionBorderingPlot($event->getBlock()->getPosition()) and $this->plugin->getLevelSettings($levelName)->editBorderBlocks) {
+			$plot = $this->plugin->getPlotBorderingPosition($event->getBlock()->getPosition());
 			if($plot instanceof Plot) {
 				$ev = new MyPlotBorderChangeEvent($plot, $event->getBlock(), $event->getPlayer(), $event);
 				if($event->isCancelled()) {
@@ -200,7 +200,7 @@ class EventListener implements Listener
 			}
 		}
 		$event->cancel();
-		$this->plugin->getLogger()->debug("Block placement/break/interaction of {$event->getBlock()->getName()} was cancelled at ".$event->getBlock()->getPos()->__toString());
+		$this->plugin->getLogger()->debug("Block placement/break/interaction of {$event->getBlock()->getName()} was cancelled at ".$event->getBlock()->getPosition()->__toString());
 	}
 
 	/**
@@ -269,16 +269,16 @@ class EventListener implements Listener
 		if($event->isCancelled()) {
 			return;
 		}
-		$levelName = $event->getBlock()->getPos()->getWorld()->getFolderName();
+		$levelName = $event->getBlock()->getPosition()->getWorld()->getFolderName();
 		if(!$this->plugin->isLevelLoaded($levelName))
 			return;
 		$settings = $this->plugin->getLevelSettings($levelName);
 
-		$newBlockInPlot = $this->plugin->getPlotByPosition($event->getBlock()->getPos()) instanceof Plot;
+		$newBlockInPlot = $this->plugin->getPlotByPosition($event->getBlock()->getPosition()) instanceof Plot;
 		$sourceBlockInPlot = $this->plugin->getPlotByPosition($event->getSource()->getPos()) instanceof Plot;
 
 		if($newBlockInPlot and $sourceBlockInPlot) {
-			$spreadIsSamePlot = $this->plugin->getPlotByPosition($event->getBlock()->getPos())->isSame($this->plugin->getPlotByPosition($event->getSource()->getPos()));
+			$spreadIsSamePlot = $this->plugin->getPlotByPosition($event->getBlock()->getPosition())->isSame($this->plugin->getPlotByPosition($event->getSource()->getPos()));
 		}else {
 			$spreadIsSamePlot = false;
 		}
@@ -287,7 +287,7 @@ class EventListener implements Listener
 			if(!$settings->updatePlotLiquids and ($sourceBlockInPlot or $this->plugin->isPositionBorderingPlot($event->getSource()->getPos()))) {
 				$event->cancel();
 				$this->plugin->getLogger()->debug("Cancelled {$event->getSource()->getName()} spread on [$levelName]");
-			}elseif($settings->updatePlotLiquids and ($sourceBlockInPlot or $this->plugin->isPositionBorderingPlot($event->getSource()->getPos())) and (!$newBlockInPlot or !$this->plugin->isPositionBorderingPlot($event->getBlock()->getPos()) or !$spreadIsSamePlot)) {
+			}elseif($settings->updatePlotLiquids and ($sourceBlockInPlot or $this->plugin->isPositionBorderingPlot($event->getSource()->getPos())) and (!$newBlockInPlot or !$this->plugin->isPositionBorderingPlot($event->getBlock()->getPosition()) or !$spreadIsSamePlot)) {
 				$event->cancel();
 				$this->plugin->getLogger()->debug("Cancelled {$event->getSource()->getName()} spread on [$levelName]");
 			}
