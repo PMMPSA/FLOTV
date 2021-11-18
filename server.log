@@ -9260,3 +9260,145 @@
 2021-11-12 [09:26:34.655] [Server thread/INFO]: NhanAZ left the game
 2021-11-12 [09:26:34.699] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to Máy chủ tạm đóng. Chân thành xin lỗi vì bất tiện này!
 2021-11-12 [09:26:34.700] [Server thread/INFO]: Unloading world "Master"
+2021-11-18 [08:19:41.165] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2021-11-18 [08:19:41.202] [Server thread/INFO]: Loading server configuration
+2021-11-18 [08:19:41.262] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-18 [08:19:41.262] [Server thread/WARNING]: ----------------------------------------
+2021-11-18 [08:19:41.268] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-18 [08:19:41.268] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-18 [08:19:41.268] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-18 [08:19:41.268] [Server thread/WARNING]: ----------------------------------------
+2021-11-18 [08:19:41.285] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-18 [08:19:41.316] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-18 [08:19:41.763] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA13+dev
+2021-11-18 [08:19:41.766] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-18 [08:19:44.447] [Server thread/INFO]: Loading resource packs...
+2021-11-18 [08:19:44.684] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-18 [08:19:44.750] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-18 [08:19:44.755] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-18 [08:19:44.828] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-18 [08:19:44.869] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-18 [08:19:44.895] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-18 [08:19:44.895] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-18 [08:19:44.896] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-18 [08:19:44.905] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-18 [08:19:44.912] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-18 [08:19:44.925] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-18 [08:19:44.934] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-18 [08:19:45.010] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-11-18 [08:19:45.021] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-18 [08:19:45.035] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-11-18 [08:19:45.059] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-11-18 [08:19:45.062] [Server thread/INFO]: [DEVirion] Loading virion pmforms v1.0.0 by dktapps (antigen: dktapps\pmforms)
+2021-11-18 [08:19:45.063] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-11-18 [08:19:45.073] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-18 [08:19:45.093] [Server thread/INFO]: Loading MyPlot v1.11.1
+2021-11-18 [08:19:45.320] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-11-18 [08:19:45.321] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-11-18 [08:19:45.346] [Server thread/INFO]: Enabling MyPlot v1.11.1
+2021-11-18 [08:19:45.607] [Server thread/INFO]: Preparing world "Master"
+2021-11-18 [08:19:45.679] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-11-18 [08:19:45.847] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-11-18 [08:19:45.906] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-11-18 [08:19:45.917] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-11-18 [08:19:45.928] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-11-18 [08:19:45.937] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-11-18 [08:19:45.950] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-11-18 [08:19:46.174] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-11-18 [08:19:46.185] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-11-18 [08:19:46.518] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-11-18 [08:19:46.519] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-11-18 [08:19:46.521] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-11-18 [08:19:46.709] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-11-18 [08:19:46.739] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-11-18 [08:19:46.739] [Server thread/INFO]: Default game type: Creative Mode
+2021-11-18 [08:19:46.740] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-11-18 [08:19:46.741] [Server thread/INFO]: Done (5.546s)! For help, type "help" or "?"
+2021-11-18 [08:19:47.541] [Server thread/INFO]: Plugins (12): ChatManager v0.0.1, DEVirion v1.2.5-ALPHA12, DevTools v1.15.0+dev, MultiWorld v1.7.0-beta2, MyPlot v1.11.1, NotificationSystem v0.0.1, PureChat v1.4.11, PurePerms v1.5.0-legacy, SimpleNPC v3.0.0-snapshot, Sound v0.0.1, TNTManagement v0.0.1, Tags v0.0.1
+2021-11-18 [08:20:06.326] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2021-11-18 [08:20:06.352] [Server thread/INFO]: Disabling DevTools v1.15.0+dev
+2021-11-18 [08:20:06.365] [Server thread/INFO]: Disabling PurePerms v1.5.0-legacy
+2021-11-18 [08:20:06.373] [Server thread/INFO]: Disabling Tags v0.0.1
+2021-11-18 [08:20:06.379] [Server thread/INFO]: Disabling ChatManager v0.0.1
+2021-11-18 [08:20:06.380] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2021-11-18 [08:20:06.380] [Server thread/INFO]: Disabling Sound v0.0.1
+2021-11-18 [08:20:06.381] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta2
+2021-11-18 [08:20:06.381] [Server thread/INFO]: Disabling SimpleNPC v3.0.0-snapshot
+2021-11-18 [08:20:06.382] [Server thread/INFO]: Disabling NotificationSystem v0.0.1
+2021-11-18 [08:20:06.385] [Server thread/INFO]: Disabling DEVirion v1.2.5-ALPHA12
+2021-11-18 [08:20:06.385] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-11-18 [08:20:06.386] [Server thread/INFO]: Disabling MyPlot v1.11.1
+2021-11-18 [08:20:06.390] [Server thread/INFO]: Unloading world "Master"
+2021-11-18 [08:20:07.312] [Server thread/INFO]: Stopping other threads
+2021-11-18 [10:34:39.925] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2021-11-18 [10:34:39.963] [Server thread/INFO]: Loading server configuration
+2021-11-18 [10:34:40.023] [Server thread/INFO]: Selected English (eng) as the base language
+2021-11-18 [10:34:40.023] [Server thread/WARNING]: ----------------------------------------
+2021-11-18 [10:34:40.032] [Server thread/WARNING]: You are running a PocketMine-MP DEVELOPMENT build.
+2021-11-18 [10:34:40.032] [Server thread/WARNING]: The API for this version may not be finalized. Plugins which run on this build may not work on other builds with the same API version.
+2021-11-18 [10:34:40.032] [Server thread/WARNING]: The build may have bugs, crash, corrupt your data, or break your plugins.
+2021-11-18 [10:34:40.033] [Server thread/WARNING]: ----------------------------------------
+2021-11-18 [10:34:40.049] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.17.40
+2021-11-18 [10:34:40.080] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-11-18 [10:34:40.570] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0-BETA13+dev
+2021-11-18 [10:34:40.577] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-11-18 [10:34:43.310] [Server thread/INFO]: Loading resource packs...
+2021-11-18 [10:34:43.552] [Server thread/INFO]: Loading DevTools v1.15.0+dev
+2021-11-18 [10:34:43.615] [Server thread/INFO]: Enabling DevTools v1.15.0+dev
+2021-11-18 [10:34:43.620] [Server thread/ERROR]: Could not load plugin 'DevTools': plugin exists
+2021-11-18 [10:34:43.665] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-11-18 [10:34:43.675] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-11-18 [10:34:43.698] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-11-18 [10:34:43.699] [Server thread/INFO]: [DEVirion] Loading virion pmforms v1.0.0 by dktapps (antigen: dktapps\pmforms)
+2021-11-18 [10:34:43.703] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-11-18 [10:34:43.711] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-11-18 [10:34:43.740] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-11-18 [10:34:43.758] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-11-18 [10:34:43.758] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-11-18 [10:34:43.758] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-11-18 [10:34:43.763] [Server thread/INFO]: Loading Tags v0.0.1
+2021-11-18 [10:34:43.774] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-11-18 [10:34:43.837] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-11-18 [10:34:43.842] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-11-18 [10:34:43.854] [Server thread/INFO]: Loading Sound v0.0.1
+2021-11-18 [10:34:43.860] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-11-18 [10:34:43.869] [Server thread/INFO]: Loading MyPlot v1.11.1
+2021-11-18 [10:34:44.074] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-11-18 [10:34:44.074] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-11-18 [10:34:44.102] [Server thread/INFO]: Enabling MyPlot v1.11.1
+2021-11-18 [10:34:44.265] [Server thread/INFO]: Preparing world "Master"
+2021-11-18 [10:34:44.348] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-11-18 [10:34:44.359] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-11-18 [10:34:44.480] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-11-18 [10:34:44.526] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-11-18 [10:34:44.540] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-11-18 [10:34:44.546] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-11-18 [10:34:44.696] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-11-18 [10:34:44.704] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-11-18 [10:34:44.714] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-11-18 [10:34:44.985] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-11-18 [10:34:44.994] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-11-18 [10:34:44.995] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-11-18 [10:34:45.174] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-11-18 [10:34:45.207] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-11-18 [10:34:45.210] [Server thread/INFO]: Default game type: Creative Mode
+2021-11-18 [10:34:45.212] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-11-18 [10:34:45.212] [Server thread/INFO]: Done (5.258s)! For help, type "help" or "?"
