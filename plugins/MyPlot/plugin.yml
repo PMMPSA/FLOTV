@@ -8,6 +8,7 @@ authors:
   - Exxarion
   - jasonwynn10
   - NgLamVN
+  - NhanAZ
 description: "Plots and Protection Plugin for PocketMine-MP Servers, currently maintained by JinodkDevTeam"
 load: STARTUP
 softdepend:

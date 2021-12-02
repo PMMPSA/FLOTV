@@ -4,15 +4,15 @@ default-factions-plugin: FactionsPro
 enable-multiworld-chat: false
 groups:
   Player:
-    chat: ''
-    nametag: ''
+    chat: '{PLAYER} §9{display_name} §e>> §7{msg}'
+    nametag: ' {display_name}'
     worlds: []
   Helper:
-    chat: ''
-    nametag: ''
+    chat: '{HELPER} §d{display_name} §e>> §a{msg}'
+    nametag: ' {display_name}'
     worlds: []
-  OP:
-    chat: ''
-    nametag: ''
+  Staff:
+    chat: '{STAFF} §c{display_name} §e>> §b{msg}'
+    nametag: ' {display_name}'
     worlds: []
 ...

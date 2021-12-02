@@ -30,6 +30,7 @@ class Main extends PluginBase implements Listener
 		$packet->z = $player->getPosition()->getZ();
 		$packet->volume = 1;
 		$packet->pitch = 1;
+		$player->getNetworkSession()->sendDataPacket($packet);
 		$this->getScheduler()->scheduleRepeatingTask (new ClosureTask(function () use ($player, $packet) : void {
 			$player->getNetworkSession()->sendDataPacket($packet);
 		}), 5100);

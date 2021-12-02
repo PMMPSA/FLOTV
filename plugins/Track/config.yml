@@ -1,0 +1,16 @@
+---
+#Set UnicodeFont: true to UnicodeFont: false if you don't want to track messages converted to unicode fonts
+UnicodeFont: false #UnicodeFont: true (Recomend using)
+
+DeleteHistory:
+#Set onEnable: true if you want to clear the player's command usage history when the server enable.
+#Set onEnable: false if you don't want to clear the player's command usage history when the server enable.
+  onEnable: false #onEnable: true (Recomend using)
+
+#Set onDisable: true if you want to clear the player's command usage history when the server disable
+#Set onDisable: false if you don't want to clear the player's command usage history when the server disable
+  onDisable: false #onDisable: false (Recomend using)
+
+#This is the message when the command usage history has been cleared.
+NoticeRemoved: "Removed player command usage history (Disabled at config.yml)"
+...

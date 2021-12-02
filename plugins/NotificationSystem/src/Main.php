@@ -19,14 +19,14 @@ class Main extends PluginBase implements Listener
 	public function onJoin(PlayerJoinEvent $event)
 	{
 		$player = $event->getPlayer();
-		$event->setJoinMessage("{JOIN} §l§b" . $player->getName() . "§a đã tham gia máy chủ...");
-		$player->sendMessage("{WARN} §l§cMáy chủ đang trong quá trình thử nghiệm...");
+		$event->setJoinMessage("{JOIN} §b" . $player->getName() . "§a đã tham gia máy chủ...");
+		$player->sendMessage("{WARN} §cMáy chủ đang trong quá trình thử nghiệm...");
 	}
 
 	public function onQuit(PlayerQuitEvent $event)
 	{
 		$player = $event->getPlayer();
-		$event->setQuitMessage("{INFO} §l§b" . $player->getName() . "§c đã rời khỏi máy chủ...");
+		$event->setQuitMessage("{INFO} §b" . $player->getName() . "§c đã rời khỏi máy chủ...");
 	}
 
 }

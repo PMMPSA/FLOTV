@@ -1,14 +1,4 @@
 ---
-count: 0
-plots:
-- level: FLOTV
-  x: 0
-  z: 0
-  name: ""
-  owner: NhanAZ
-  helpers: []
-  denied: []
-  biome: PLAINS
-  pvp: true
-  price: 0
+count: -1
+plots: []
 ...

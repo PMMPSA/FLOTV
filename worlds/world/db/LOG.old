@@ -1,5 +1,2 @@
-2021/12/02-22:52:10.931000 17776 Recovering log #56
-2021/12/02-22:52:10.931000 17776 Level-0 table #59: started
-2021/12/02-22:52:10.947000 17776 Level-0 table #59: 12700 bytes OK
-2021/12/02-22:52:10.978000 17776 Delete type=0 #56
-2021/12/02-22:52:10.978000 17776 Delete type=3 #54
+2021/12/02-23:32:20.730000 18108 Creating DB D:/FLOTV/worlds/world/db since it was missing.
+2021/12/02-23:32:20.784000 18108 Delete type=3 #1
