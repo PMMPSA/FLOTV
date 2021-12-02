@@ -10757,3 +10757,181 @@
 2021-12-02 [16:16:26.865] [Server thread/INFO]: Unloading world "world"
 2021-12-02 [16:16:26.878] [Server thread/INFO]: Unloading world "FLOTV"
 2021-12-02 [16:16:27.777] [Server thread/INFO]: Stopping other threads
+2021-12-02 [17:14:59.903] [Server thread/INFO]: Loading server configuration
+2021-12-02 [17:14:59.938] [Server thread/INFO]: Selected English (eng) as the base language
+2021-12-02 [17:14:59.944] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.0
+2021-12-02 [17:14:59.954] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-12-02 [17:15:00.418] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0
+2021-12-02 [17:15:00.419] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-12-02 [17:15:00.943] [Server thread/INFO]: Loading resource packs...
+2021-12-02 [17:15:00.944] [Server thread/CRITICAL]: Could not load resource pack "FLOTV.zip": File or directory not found
+2021-12-02 [17:15:01.002] [Server thread/INFO]: Loading DevTools v1.15.0
+2021-12-02 [17:15:01.021] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-12-02 [17:15:01.041] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-12-02 [17:15:01.045] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-12-02 [17:15:01.049] [Server thread/INFO]: Loading Biome v1
+2021-12-02 [17:15:01.052] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-12-02 [17:15:01.057] [Server thread/INFO]: Loading Tags v0.0.1
+2021-12-02 [17:15:01.061] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-12-02 [17:15:01.066] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-12-02 [17:15:01.080] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-12-02 [17:15:01.081] [Server thread/INFO]: [DEVirion] Loading virion pmforms v1.0.0 by dktapps (antigen: dktapps\pmforms)
+2021-12-02 [17:15:01.082] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-12-02 [17:15:01.093] [Server thread/INFO]: Loading Sound v0.0.1
+2021-12-02 [17:15:01.097] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-12-02 [17:15:01.125] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-12-02 [17:15:01.140] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-12-02 [17:15:01.140] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-12-02 [17:15:01.140] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-12-02 [17:15:01.166] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-12-02 [17:15:01.174] [Server thread/INFO]: Loading MyPlot v1
+2021-12-02 [17:15:01.261] [Server thread/INFO]: Enabling DevTools v1.15.0
+2021-12-02 [17:15:01.268] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-12-02 [17:15:01.270] [Server thread/INFO]: Enabling MyPlot v1
+2021-12-02 [17:15:01.367] [Server thread/INFO]: Preparing world "world"
+2021-12-02 [17:15:01.376] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-12-02 [17:15:01.377] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-12-02 [17:15:01.378] [Server thread/INFO]: Enabling Biome v1
+2021-12-02 [17:15:01.380] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-12-02 [17:15:01.383] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-12-02 [17:15:01.462] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-12-02 [17:15:01.464] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-12-02 [17:15:01.464] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-12-02 [17:15:01.464] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-12-02 [17:15:01.501] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-12-02 [17:15:01.522] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-12-02 [17:15:01.577] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-12-02 [17:15:01.577] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-12-02 [17:15:01.633] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-12-02 [17:15:01.660] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-12-02 [17:15:01.660] [Server thread/INFO]: Default game type: Creative Mode
+2021-12-02 [17:15:01.660] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-12-02 [17:15:01.661] [Server thread/INFO]: Done (1.76s)! For help, type "help" or "?"
+2021-12-02 [17:16:05.189] [Server thread/INFO]: [NetworkSession: 192.168.1.1 46388] Session opened
+2021-12-02 [17:16:05.240] [Server thread/INFO]: [NetworkSession: 192.168.1.1 46388] Player: NhanAZ
+2021-12-02 [17:16:05.892] [Server thread/INFO]: NhanAZ[/192.168.1.1:46388] logged in with entity id 1 at (world, 256, 67, 256)
+2021-12-02 [17:16:11.656] [Server thread/CRITICAL]: Error: "Undefined constant pocketmine\network\mcpe\protocol\LevelEventPacket::EVENT_STOP_RAIN" (EXCEPTION) in "plugins/Biome/src/Biome/Main" at line 44
+--- Stack trace ---
+  #0 pmsrc/src/event/RegisteredListener(75): Biome\Main->onJoin(object pocketmine\event\player\PlayerJoinEvent#115748)
+  #1 pmsrc/src/event/Event(62): pocketmine\event\RegisteredListener->callEvent(object pocketmine\event\player\PlayerJoinEvent#115748)
+  #2 pmsrc/src/player/Player(778): pocketmine\event\Event->call()
+  #3 pmsrc/src/network/mcpe/NetworkSession(711): pocketmine\player\Player->doFirstSpawn()
+  #4 pmsrc/src/network/mcpe/NetworkSession(704): pocketmine\network\mcpe\NetworkSession->onClientSpawnResponse()
+  #5 pmsrc/src/network/mcpe/handler/SpawnResponsePacketHandler(44): pocketmine\network\mcpe\NetworkSession->pocketmine\network\mcpe\{closure}()
+  #6 pmsrc/vendor/pocketmine/bedrock-protocol/src/SetLocalPlayerAsInitializedPacket(51): pocketmine\network\mcpe\handler\SpawnResponsePacketHandler->handleSetLocalPlayerAsInitialized(object pocketmine\network\mcpe\protocol\SetLocalPlayerAsInitializedPacket#115817)
+  #7 pmsrc/src/network/mcpe/NetworkSession(395): pocketmine\network\mcpe\protocol\SetLocalPlayerAsInitializedPacket->handle(object pocketmine\network\mcpe\handler\SpawnResponsePacketHandler#94901)
+  #8 pmsrc/src/network/mcpe/NetworkSession(358): pocketmine\network\mcpe\NetworkSession->handleDataPacket(object pocketmine\network\mcpe\protocol\SetLocalPlayerAsInitializedPacket#115817, string[2] q.)
+  #9 pmsrc/src/network/mcpe/raklib/RakLibInterface(192): pocketmine\network\mcpe\NetworkSession->handleEncoded(string[5] c*d..)
+  #10 pmsrc/vendor/pocketmine/raklib-ipc/src/RakLibToUserThreadMessageReceiver(42): pocketmine\network\mcpe\raklib\RakLibInterface->onPacketReceive(integer 0, string[14] ..j...`....E-.)
+  #11 pmsrc/src/network/mcpe/raklib/RakLibInterface(122): raklib\server\ipc\RakLibToUserThreadMessageReceiver->handle(object pocketmine\network\mcpe\raklib\RakLibInterface#24088)
+  #12 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(123): pocketmine\network\mcpe\raklib\RakLibInterface->pocketmine\network\mcpe\raklib\{closure}()
+  #13 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(82): pocketmine\snooze\SleeperHandler->processNotifications()
+  #14 pmsrc/src/Server(1645): pocketmine\snooze\SleeperHandler->sleepUntil(double 1638440171.6727)
+  #15 pmsrc/src/Server(1034): pocketmine\Server->tickProcessor()
+  #16 pmsrc/src/PocketMine(301): pocketmine\Server->__construct(object BaseClassLoader#2, object pocketmine\utils\MainLogger#3, string[9] D:\FLOTV\, string[17] D:\FLOTV\plugins\)
+  #17 pmsrc/src/PocketMine(324): pocketmine\server()
+  #18 pmsrc(11): require(string[53] phar://D:/FLOTV/PocketMine-MP.phar/src/PocketMine.php)
+--- End of exception information ---
+2021-12-02 [17:16:11.657] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2021-12-02 [17:16:11.684] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Thu_Dec_2-17.16.11-WIB_2021.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2021-12-02 [17:16:11.687] [Server thread/EMERGENCY]: Forcing server shutdown
+2021-12-02 [17:16:11.687] [Server thread/INFO]: Disabling DevTools v1.15.0
+2021-12-02 [17:16:11.690] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2021-12-02 [17:16:11.690] [Server thread/INFO]: Disabling ChatManager v0.0.1
+2021-12-02 [17:16:11.691] [Server thread/INFO]: Disabling Biome v1
+2021-12-02 [17:16:11.692] [Server thread/INFO]: Disabling SimpleNPC v3.0.0-snapshot
+2021-12-02 [17:16:11.692] [Server thread/INFO]: Disabling Tags v0.0.1
+2021-12-02 [17:16:11.693] [Server thread/INFO]: Disabling NotificationSystem v0.0.1
+2021-12-02 [17:16:11.694] [Server thread/INFO]: Disabling DEVirion v1.2.5-ALPHA12
+2021-12-02 [17:16:11.694] [Server thread/INFO]: Disabling Sound v0.0.1
+2021-12-02 [17:16:11.700] [Server thread/INFO]: Disabling PurePerms v1.5.0-legacy
+2021-12-02 [17:16:11.703] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta2
+2021-12-02 [17:16:11.703] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-12-02 [17:16:11.704] [Server thread/INFO]: Disabling MyPlot v1
+2021-12-02 [17:16:11.707] [Server thread/INFO]: NhanAZ left the game
+2021-12-02 [17:16:11.725] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to Máy chủ tạm đóng. Chân thành xin lỗi vì bất tiện này!
+2021-12-02 [17:16:11.725] [Server thread/INFO]: Unloading world "world"
+2021-12-02 [17:33:03.490] [Server thread/INFO]: Loading server configuration
+2021-12-02 [17:33:03.523] [Server thread/INFO]: Selected English (eng) as the base language
+2021-12-02 [17:33:03.528] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.0
+2021-12-02 [17:33:03.537] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-12-02 [17:33:03.838] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0
+2021-12-02 [17:33:03.838] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-12-02 [17:33:04.273] [Server thread/INFO]: Loading resource packs...
+2021-12-02 [17:33:04.341] [Server thread/INFO]: Loading DevTools v1.15.0
+2021-12-02 [17:33:04.358] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-12-02 [17:33:04.372] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-12-02 [17:33:04.375] [Server thread/INFO]: Loading Sound v0.0.1
+2021-12-02 [17:33:04.378] [Server thread/INFO]: Loading Biome v1
+2021-12-02 [17:33:04.380] [Server thread/INFO]: Loading ChatManager v0.0.1
+2021-12-02 [17:33:04.381] [Server thread/INFO]: Loading Tags v0.0.1
+2021-12-02 [17:33:04.384] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-12-02 [17:33:04.402] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-12-02 [17:33:04.406] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-12-02 [17:33:04.412] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-12-02 [17:33:04.413] [Server thread/INFO]: [DEVirion] Loading virion pmforms v1.0.0 by dktapps (antigen: dktapps\pmforms)
+2021-12-02 [17:33:04.413] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-12-02 [17:33:04.419] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-12-02 [17:33:04.440] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-12-02 [17:33:04.451] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-12-02 [17:33:04.451] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-12-02 [17:33:04.451] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-12-02 [17:33:04.456] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-12-02 [17:33:04.463] [Server thread/INFO]: Loading MyPlot v1
+2021-12-02 [17:33:04.528] [Server thread/INFO]: Enabling DevTools v1.15.0
+2021-12-02 [17:33:04.532] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-12-02 [17:33:04.534] [Server thread/INFO]: Enabling MyPlot v1
+2021-12-02 [17:33:04.619] [Server thread/INFO]: Preparing world "world"
+2021-12-02 [17:33:04.631] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-12-02 [17:33:04.633] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-12-02 [17:33:04.706] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-12-02 [17:33:04.706] [Server thread/INFO]: Enabling Biome v1
+2021-12-02 [17:33:04.707] [Server thread/INFO]: Enabling ChatManager v0.0.1
+2021-12-02 [17:33:04.708] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-12-02 [17:33:04.710] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-12-02 [17:33:04.758] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-12-02 [17:33:04.759] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-12-02 [17:33:04.789] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-12-02 [17:33:04.809] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-12-02 [17:33:04.810] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-12-02 [17:33:04.810] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-12-02 [17:33:04.866] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-12-02 [17:33:04.892] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-12-02 [17:33:04.893] [Server thread/INFO]: Default game type: Creative Mode
+2021-12-02 [17:33:04.893] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-12-02 [17:33:04.893] [Server thread/INFO]: Done (1.405s)! For help, type "help" or "?"
+2021-12-02 [17:34:09.891] [Server thread/INFO]: [CONSOLE: Added Zerokills050 to the whitelist]
+2021-12-02 [17:35:17.803] [Server thread/INFO]: Plugins (13): Biome v1, ChatManager v0.0.1, DEVirion v1.2.5-ALPHA12, DevTools v1.15.0, MultiWorld v1.7.0-beta2, MyPlot v1, NotificationSystem v0.0.1, PureChat v1.4.11, PurePerms v1.5.0-legacy, SimpleNPC v3.0.0-snapshot, Sound v0.0.1, TNTManagement v0.0.1, Tags v0.0.1
+2021-12-02 [17:37:26.609] [Server thread/INFO]: [NetworkSession: 171.225.254.121 12049] Session opened
+2021-12-02 [17:37:26.743] [Server thread/INFO]: Plugins (13): Biome v1, ChatManager v0.0.1, DEVirion v1.2.5-ALPHA12, DevTools v1.15.0, MultiWorld v1.7.0-beta2, MyPlot v1, NotificationSystem v0.0.1, PureChat v1.4.11, PurePerms v1.5.0-legacy, SimpleNPC v3.0.0-snapshot, Sound v0.0.1, TNTManagement v0.0.1, Tags v0.0.1
+2021-12-02 [17:37:27.748] [Server thread/INFO]: [NetworkSession: 171.225.254.121 12049] Session closed due to Incompatible protocol version (471)
+2021-12-02 [17:49:52.273] [Server thread/INFO]: [NetworkSession: 171.225.254.121 51588] Session opened
+2021-12-02 [17:49:52.658] [Server thread/INFO]: [NetworkSession: 171.225.254.121 51588] Player: Zerozeuskills
+2021-12-02 [17:49:52.660] [Server thread/INFO]: [NetworkSession: Zerozeuskills] Session closed due to Server is whitelisted
+2021-12-02 [17:50:43.914] [Server thread/INFO]: There are 3 (out of 3 seen) whitelisted players:
+2021-12-02 [17:50:43.915] [Server thread/INFO]: nhanaz, puckvn, zerokills050
+2021-12-02 [17:50:49.745] [Server thread/INFO]: [CONSOLE: Added Zerozeuskills to the whitelist]
+2021-12-02 [17:50:58.070] [Server thread/INFO]: [CONSOLE: Removed zerokills050 from the whitelist]
+2021-12-02 [17:51:04.863] [Server thread/INFO]: [CONSOLE: Removed puckvn from the whitelist]
+2021-12-02 [17:51:40.514] [Server thread/INFO]: [NetworkSession: 171.225.254.121 51588] Session opened
+2021-12-02 [17:51:40.790] [Server thread/INFO]: [NetworkSession: 171.225.254.121 51588] Player: Zerozeuskills
+2021-12-02 [17:51:47.264] [Server thread/INFO]: Zerozeuskills[/171.225.254.121:51588] logged in with entity id 1 at (world, 256, 67, 256)
+2021-12-02 [17:52:07.245] [Server thread/INFO]: {JOIN} Zerozeuskills đã tham gia máy chủ...
+2021-12-02 [17:53:46.978] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2021-12-02 [17:53:46.980] [Server thread/INFO]: Disabling DevTools v1.15.0
+2021-12-02 [17:53:46.981] [Server thread/INFO]: Disabling SimpleNPC v3.0.0-snapshot
+2021-12-02 [17:53:46.982] [Server thread/INFO]: Disabling Sound v0.0.1
+2021-12-02 [17:53:46.982] [Server thread/INFO]: Disabling Biome v1
+2021-12-02 [17:53:46.982] [Server thread/INFO]: Disabling ChatManager v0.0.1
+2021-12-02 [17:53:46.983] [Server thread/INFO]: Disabling Tags v0.0.1
+2021-12-02 [17:53:46.983] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta2
+2021-12-02 [17:53:46.983] [Server thread/INFO]: Disabling NotificationSystem v0.0.1
+2021-12-02 [17:53:46.983] [Server thread/INFO]: Disabling DEVirion v1.2.5-ALPHA12
+2021-12-02 [17:53:46.984] [Server thread/INFO]: Disabling PurePerms v1.5.0-legacy
+2021-12-02 [17:53:46.984] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2021-12-02 [17:53:46.985] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-12-02 [17:53:46.985] [Server thread/INFO]: Disabling MyPlot v1
+2021-12-02 [17:53:46.985] [Server thread/INFO]: Zerozeuskills left the game
+2021-12-02 [17:53:47.003] [Server thread/INFO]: [NetworkSession: Zerozeuskills] Session closed due to Máy chủ tạm đóng. Chân thành xin lỗi vì bất tiện này!
+2021-12-02 [17:53:47.004] [Server thread/INFO]: Unloading world "world"
+2021-12-02 [17:53:47.747] [Server thread/INFO]: Stopping other threads
