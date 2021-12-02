@@ -4,6 +4,7 @@ authors: [VixikCZ, fuyutsuki, kaliiks]
 api: 4.0.0
 version: 1.7.0-beta2
 main: czechpmdevs\multiworld\MultiWorld
+src-namespace-prefix: czechpmdevs\multiworld
 description: Plugin that manage with worlds
 website: https://github.com/CzechPMDevs/MultiWorld
 extensions:

@@ -27,8 +27,8 @@ class Main extends PluginBase implements Listener
 	public function onChunk(ChunkLoadEvent $event): void
 	{
 		$chunk = $event->getChunk();
-		for ($i = 0; $i < 33; $i++) {
-			for ($j = 0; $j < 33; $j++) {
+		for ($i = 0; $i < 16; $i++) {
+			for ($j = 0; $j < 16; $j++) {
 				if ($chunk->getBiomeId($i, $j) != $this->currentBiome) {
 					$chunk->setBiomeId($i, $j, $this->currentBiome);
 				}

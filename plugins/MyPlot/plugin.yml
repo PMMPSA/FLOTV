@@ -1,5 +1,6 @@
 name: MyPlot
 main: MyPlot\MyPlot
+src-namespace-prefix: MyPlot
 version: 1.0
 api: 4.0.0
 authors:
