@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+
 namespace MyPlot\events;
 
 use MyPlot\Plot;
@@ -13,43 +14,43 @@ use pocketmine\event\Event;
 use pocketmine\event\player\PlayerInteractEvent;
 use pocketmine\player\Player;
 
-class MyPlotBlockEvent extends MyPlotPlotEvent implements Cancellable {
+class MyPlotBlockEvent extends MyPlotPlotEvent implements Cancellable{
 	use CancellableTrait;
 
 	/** @var Block $block */
-	private $block;
-	/** @var BlockPlaceEvent|BlockBreakEvent|PlayerInteractEvent|SignChangeEvent $event */
-	private $event;
+	private Block $block;
+	/** @var BlockBreakEvent|BlockPlaceEvent|PlayerInteractEvent|SignChangeEvent $event */
+	private BlockBreakEvent|PlayerInteractEvent|SignChangeEvent|BlockPlaceEvent $event;
 	/** @var Player $player */
-	private $player;
+	private Player $player;
 
 	/**
 	 * MyPlotBlockEvent constructor.
 	 *
-	 * @param Plot $plot
-	 * @param Block $block
-	 * @param Player $player
-	 * @param BlockPlaceEvent|BlockBreakEvent|PlayerInteractEvent|SignChangeEvent $event
+	 * @param Plot                                                                $plot
+	 * @param Block                                                               $block
+	 * @param Player                                                              $player
+	 * @param BlockBreakEvent|PlayerInteractEvent|SignChangeEvent|BlockPlaceEvent $event
 	 */
-	public function __construct(Plot $plot, Block $block, Player $player, Event $event) {
+	public function __construct(Plot $plot, Block $block, Player $player, BlockBreakEvent|PlayerInteractEvent|SignChangeEvent|BlockPlaceEvent $event){
 		$this->block = $block;
 		$this->player = $player;
 		$this->event = $event;
 		parent::__construct($plot);
 	}
 
-	public function getBlock() : Block {
+	public function getBlock() : Block{
 		return $this->block;
 	}
 
 	/**
-	 * @return BlockPlaceEvent|BlockBreakEvent|PlayerInteractEvent|SignChangeEvent
+	 * @return Event
 	 */
-	public function getEvent() : Event {
+	public function getEvent() : Event{
 		return $this->event;
 	}
 
-	public function getPlayer() : Player {
+	public function getPlayer() : Player{
 		return $this->player;
 	}
 }

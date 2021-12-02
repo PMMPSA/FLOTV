@@ -2,8 +2,7 @@
 name: Tags
 version: 0.0.1
 main: NhanAZ\Tags\Main
-api: [4.0.0]
-mcpe-protocol: [471]
+api: 4.0.0
 author: NhanAZ
 website: https://github.com/NhanAZ
 description: Liven up your server with Tags

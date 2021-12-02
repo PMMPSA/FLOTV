@@ -19,11 +19,11 @@ class Main extends PluginBase implements Listener
 
 	public function onChat(PlayerChatEvent $event)
 	{
-		$player = $event->getPlayer();
-		$msg = $event->getMessage();
-		if ($event->isCancel()) {
-			$this->getLogger()->info("> " . $player->getName() . " : " . $msg);
-		}
+		// $player = $event->getPlayer();
+		// $msg = $event->getMessage();
+		// if ($event->isCancel()) {
+		// 	$this->getLogger()->info("> " . $player->getName() . " : " . $msg);
+		// }
 /*		$event->cancel();
 		//$player->sendMessage("§e>§c Hãy cảm nhận bằng cách im lặng nhất...");
 		$this->getScheduler()->scheduleDelayedTask (new ClosureTask(function () use ($player, $msg) : void {

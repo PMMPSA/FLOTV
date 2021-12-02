@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+
 namespace MyPlot;
 
 //use jasonwynn10\EasyCommandAutofill\Main;
@@ -34,28 +35,30 @@ use MyPlot\subcommand\UnDenySubCommand;
 use MyPlot\subcommand\WarpSubCommand;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
+use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
+use pocketmine\plugin\PluginOwned;
+use pocketmine\Server;
+use pocketmine\utils\TextFormat;
+use ReflectionException;
+
 //use pocketmine\network\mcpe\protocol\AvailableCommandsPacket;
 //use pocketmine\network\mcpe\protocol\types\command\CommandData;
 //use pocketmine\network\mcpe\protocol\types\command\CommandEnum;
 //use pocketmine\network\mcpe\protocol\types\command\CommandParameter;
-use pocketmine\player\Player;
-use pocketmine\plugin\Plugin;
-use pocketmine\plugin\PluginOwned;
-use pocketmine\utils\TextFormat;
 
-class Commands extends Command implements PluginOwned
-{
+class Commands extends Command implements PluginOwned{
 	/** @var SubCommand[] $subCommands */
-	private $subCommands = [];
+	private array $subCommands = [];
 	/** @var SubCommand[] $aliasSubCommands */
-	private $aliasSubCommands = [];
+	private array $aliasSubCommands = [];
 
 	/**
 	 * Commands constructor.
 	 *
 	 * @param MyPlot $plugin
 	 */
-	public function __construct(MyPlot $plugin) {
+	public function __construct(MyPlot $plugin){
 		parent::__construct($plugin->getLanguage()->get("command.name"),
 			$plugin->getLanguage()->get("command.desc"),
 			$plugin->getLanguage()->get("command.usage"),
@@ -72,7 +75,7 @@ class Commands extends Command implements PluginOwned
 		$this->loadSubCommand(new ClearSubCommand($plugin, "clear"));
 		$this->loadSubCommand(new DisposeSubCommand($plugin, "dispose"));
 		$this->loadSubCommand(new ResetSubCommand($plugin, "reset"));
-		//$this->loadSubCommand(new BiomeSubCommand($plugin, "biome"));
+		$this->loadSubCommand(new BiomeSubCommand($plugin, "biome"));
 		$this->loadSubCommand(new HomeSubCommand($plugin, "home"));
 		$this->loadSubCommand(new HomesSubCommand($plugin, "homes"));
 		$this->loadSubCommand(new NameSubCommand($plugin, "name"));
@@ -86,12 +89,12 @@ class Commands extends Command implements PluginOwned
 		$this->loadSubCommand(new PvpSubCommand($plugin, "pvp"));
 		$this->loadSubCommand(new KickSubCommand($plugin, "kick"));
 		$this->loadSubCommand(new MergeSubCommand($plugin, "merge"));
-		if($plugin->getEconomyProvider() !== null) {
+		if($plugin->getEconomyProvider() !== null){
 			$this->loadSubCommand(new SellSubCommand($plugin, "sell"));
 			$this->loadSubCommand(new BuySubCommand($plugin, "buy"));
 		}
 		$styler = $this->getOwningPlugin()->getServer()->getPluginManager()->getPlugin("WorldStyler");
-		if($styler !== null) {
+		if($styler !== null){
 			$this->loadSubCommand(new CloneSubCommand($plugin, "clone"));
 		}
 		$plugin->getLogger()->debug("Commands Registered to MyPlot");
@@ -185,23 +188,27 @@ class Commands extends Command implements PluginOwned
 		}*/
 	}
 
-	/**
-	 * @return SubCommand[]
-	 */
-	public function getCommands() : array {
-		return $this->subCommands;
-	}
-
-	public function loadSubCommand(SubCommand $command) : void {
+	public function loadSubCommand(SubCommand $command) : void{
 		$this->subCommands[$command->getName()] = $command;
-		if($command->getAlias() != "") {
+		if($command->getAlias() != ""){
 			$this->aliasSubCommands[$command->getAlias()] = $command;
 		}
 	}
 
-	public function unloadSubCommand(string $name) : void {
+	public function getOwningPlugin() : Plugin{
+		return MyPlot::getInstance();
+	}
+
+	/**
+	 * @return SubCommand[]
+	 */
+	public function getCommands() : array{
+		return $this->subCommands;
+	}
+
+	public function unloadSubCommand(string $name) : void{
 		$subcommand = $this->subCommands[$name] ?? $this->aliasSubCommands[$name] ?? null;
-		if($subcommand !== null) {
+		if($subcommand !== null){
 			unset($this->subCommands[$subcommand->getName()]);
 			unset($this->aliasSubCommands[$subcommand->getAlias()]);
 		}
@@ -209,37 +216,38 @@ class Commands extends Command implements PluginOwned
 
 	/**
 	 * @param CommandSender $sender
-	 * @param string $alias
-	 * @param string[] $args
+	 * @param string        $alias
+	 * @param string[]      $args
 	 *
 	 * @return bool
-	 * @throws \ReflectionException
 	 */
-	public function execute(CommandSender $sender, string $alias, array $args) : bool {
+	public function execute(CommandSender $sender, string $alias, array $args) : bool{
 		/** @var MyPlot $plugin */
 		$plugin = $this->getOwningPlugin();
-		if($plugin->isDisabled()) {
+		if($plugin->isDisabled()){
 			$sender->sendMessage($plugin->getLanguage()->get("plugin.disabled"));
 			return true;
 		}
-		if(!isset($args[0])) {
+		if(!isset($args[0])){
 			$args[0] = "help";
-			if($sender instanceof Player and $plugin->getConfig()->get("UI Forms", true)) {
-				$sender->sendForm(new MainForm($sender, $this->subCommands));
-				return true;
+			if($sender instanceof Player and $plugin->getConfig()->get("UI Forms", true)){
+				if (Server::getInstance()->isOp($sender->getName())){
+					$sender->sendForm(new MainForm($sender, $this->subCommands));
+					return true;
+				}
 			}
 		}
-		$subCommand = strtolower((string)array_shift($args));
-		if(isset($this->subCommands[$subCommand])) {
+		$subCommand = strtolower((string) array_shift($args));
+		if(isset($this->subCommands[$subCommand])){
 			$command = $this->subCommands[$subCommand];
-		}elseif(isset($this->aliasSubCommands[$subCommand])) {
+		}elseif(isset($this->aliasSubCommands[$subCommand])){
 			$command = $this->aliasSubCommands[$subCommand];
 		}else{
 			$sender->sendMessage(TextFormat::RED . $plugin->getLanguage()->get("command.unknown"));
 			return true;
 		}
-		if($command->canUse($sender)) {
-			if(!$command->execute($sender, $args)) {
+		if($command->canUse($sender)){
+			if(!$command->execute($sender, $args)){
 				$usage = $plugin->getLanguage()->translateString("subcommand.usage", [$command->getUsage()]);
 				$sender->sendMessage($usage);
 			}
@@ -247,9 +255,5 @@ class Commands extends Command implements PluginOwned
 			$sender->sendMessage(TextFormat::RED . $plugin->getLanguage()->get("command.unknown"));
 		}
 		return true;
-	}
-
-	public function getOwningPlugin() : Plugin {
-		return MyPlot::getInstance();
 	}
 }

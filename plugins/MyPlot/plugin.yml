@@ -1,19 +1,19 @@
 name: MyPlot
 main: MyPlot\MyPlot
-version: 1.11.1
-api:
-- 4.0.0
+version: 1.0
+api: 4.0.0
 authors:
-- Wiez
-- Exxarion
-- jasonwynn10
-description: "Plots and Protection Plugin for PocketMine-MP Servers"
+  - Wiez
+  - Exxarion
+  - jasonwynn10
+  - NgLamVN
+description: "Plots and Protection Plugin for PocketMine-MP Servers, currently maintained by JinodkDevTeam"
 load: STARTUP
 softdepend:
-- EconomyAPI
-- DEVirion
-- WorldStyler
-- EasyCommandAutofill
+  - EconomyAPI
+  - DEVirion
+  - WorldStyler
+  - EasyCommandAutofill
 permissions:
   myplot.command:
     default: op
@@ -36,23 +36,23 @@ permissions:
   myplot.command.auto:
     default: true
   myplot.command.clear:
-    default: true
+    default: op
   myplot.command.dispose:
-    default: true
+    default: op
   myplot.command.reset:
-    default: true
+    default: op
   myplot.command.biome:
-    default: true
+    default: op
   myplot.command.biomes:
-    default: true
+    default: op
   myplot.command.home:
     default: true
   myplot.command.homes:
     default: true
   myplot.command.name:
-    default: true
+    default: op
   myplot.command.give:
-    default: true
+    default: op
   myplot.command.warp:
     default: true
   myplot.command.done:
@@ -62,9 +62,9 @@ permissions:
   myplot.command.list:
     default: true
   myplot.command.pvp:
-    default: true
+    default: op
   myplot.command.clone:
-    default: true
+    default: op
   myplot.admin:
     default: op
   myplot.admin.clear:
@@ -111,7 +111,7 @@ permissions:
     default: op
   myplot.claimplots:
     default: op
-  myplot.claimplots.2:
+  myplot.claimplots.1:
     default: true
   myplot.claimplots.unlimited:
     default: op
