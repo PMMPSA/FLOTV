@@ -1,41 +1,18 @@
 ---
-Guest:
-  alias: gst
+Player:
+  alias: ""
   isDefault: true
   inheritance: []
-  permissions:
-  - -essentials.kit
-  - -essentials.kit.other
-  - -pocketmine.command.me
-  - pchat.colored.format
-  - pchat.colored.nametag
-  - pocketmine.command.list
-  - pperms.command.ppinfo
+  permissions: []
   worlds: []
-Admin:
-  alias: adm
-  inheritance:
-  - Guest
-  permissions:
-  - essentials.gamemode
-  - pocketmine.broadcast
-  - pocketmine.command.gamemode
-  - pocketmine.command.give
-  - pocketmine.command.kick
-  - pocketmine.command.teleport
-  - pocketmine.command.time
+Helper:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
   worlds: []
-Owner:
-  alias: owr
-  inheritance:
-  - Admin
-  permissions:
-  - essentials
-  - pocketmine.command
-  - pperms.command
-  worlds: []
-OP:
-  alias: op
+Staff:
+  alias: ""
   inheritance: []
   permissions:
   - '*'

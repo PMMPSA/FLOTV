@@ -12,5 +12,5 @@ mysql-settings:
   db: YourDBNameGoesHere
 noeul-minimum-pw-length: 6
 superadmin-ranks:
-- OP
+- Staff
 ...

@@ -3,20 +3,16 @@ version: 1.4.10-6
 default-factions-plugin: FactionsPro
 enable-multiworld-chat: false
 groups:
-  Guest:
-    chat: '&7[Guest] &f{fac_rank}{fac_name}&a {display_name} &7> &f{msg}'
-    nametag: ' §l§f{display_name}'
+  Player:
+    chat: ''
+    nametag: ''
     worlds: []
-  Admin:
-    chat: '&c[Admin] &7{fac_rank}{fac_name}&6 {display_name} &d>&b {msg}'
-    nametag: '&a[Admin]&e {fac_rank}{fac_name} &6{display_name}'
-    worlds: []
-  Owner:
-    chat: '&d[Owner] &c{fac_rank}{fac_name} &b{display_name} &c>&6> &b{msg}'
-    nametag: '&d[Owner]&c {fac_rank}{fac_name} &b{display_name}'
+  Helper:
+    chat: ''
+    nametag: ''
     worlds: []
   OP:
-    chat: '&a[OP] &5{fac_rank}{fac_name}&b {prefix}{display_name}{suffix} &c>&6> &f{msg}'
-    nametag: '&a[OP] &c{fac_rank}{fac_name} &b{display_name}'
+    chat: ''
+    nametag: ''
     worlds: []
 ...
