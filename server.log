@@ -11423,3 +11423,107 @@
 2021-12-02 [19:16:11.513] [Server thread/INFO]: {JOIN} NhanAZ đã tham gia máy chủ...
 2021-12-02 [19:16:22.734] [Server thread/INFO]: {INFO} NhanAZ đã rời khỏi máy chủ...
 2021-12-02 [19:16:22.756] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2021-12-02 [19:19:33.556] [Server thread/INFO]: Loading server configuration
+2021-12-02 [19:19:33.587] [Server thread/INFO]: Selected English (eng) as the base language
+2021-12-02 [19:19:33.593] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.0
+2021-12-02 [19:19:33.602] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-12-02 [19:19:33.972] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0
+2021-12-02 [19:19:33.973] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-12-02 [19:19:34.455] [Server thread/INFO]: Loading resource packs...
+2021-12-02 [19:19:34.517] [Server thread/INFO]: Loading DevTools v1.15.0
+2021-12-02 [19:19:34.533] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-12-02 [19:19:34.547] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-12-02 [19:19:34.550] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-12-02 [19:19:34.553] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-12-02 [19:19:34.555] [Server thread/INFO]: Loading Biome v1
+2021-12-02 [19:19:34.557] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-12-02 [19:19:34.574] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-12-02 [19:19:34.594] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-12-02 [19:19:34.603] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-12-02 [19:19:34.603] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-12-02 [19:19:34.603] [Server thread/INFO]: Loading Tags v0.0.1
+2021-12-02 [19:19:34.606] [Server thread/INFO]: Loading Sound v0.0.1
+2021-12-02 [19:19:34.608] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-12-02 [19:19:34.614] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-12-02 [19:19:34.615] [Server thread/INFO]: [DEVirion] Loading virion pmforms v1.0.0 by dktapps (antigen: dktapps\pmforms)
+2021-12-02 [19:19:34.615] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-12-02 [19:19:34.621] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-12-02 [19:19:34.631] [Server thread/INFO]: Loading MyPlot v1
+2021-12-02 [19:19:34.702] [Server thread/INFO]: Enabling DevTools v1.15.0
+2021-12-02 [19:19:34.709] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-12-02 [19:19:34.712] [Server thread/INFO]: Enabling MyPlot v1
+2021-12-02 [19:19:34.801] [Server thread/INFO]: Preparing world "world"
+2021-12-02 [19:19:34.813] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-12-02 [19:19:34.817] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-12-02 [19:19:34.894] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-12-02 [19:19:34.894] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-12-02 [19:19:34.897] [Server thread/INFO]: Enabling Biome v1
+2021-12-02 [19:19:34.899] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-12-02 [19:19:34.951] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-12-02 [19:19:34.983] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-12-02 [19:19:35.007] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-12-02 [19:19:35.009] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-12-02 [19:19:35.011] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-12-02 [19:19:35.011] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-12-02 [19:19:35.077] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-12-02 [19:19:35.105] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-12-02 [19:19:35.106] [Server thread/INFO]: Default game type: Creative Mode
+2021-12-02 [19:19:35.106] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-12-02 [19:19:35.107] [Server thread/INFO]: Done (1.553s)! For help, type "help" or "?"
+2021-12-02 [19:20:15.267] [Server thread/INFO]: [NetworkSession: 192.168.1.1 40032] Session opened
+2021-12-02 [19:20:15.304] [Server thread/INFO]: [NetworkSession: 192.168.1.1 40032] Player: NhanAZ
+2021-12-02 [19:20:19.039] [Server thread/INFO]: NhanAZ[/192.168.1.1:40032] logged in with entity id 1 at (world, 256, 67, 256)
+2021-12-02 [19:20:24.393] [Server thread/INFO]: {JOIN} NhanAZ đã tham gia máy chủ...
+2021-12-02 [19:22:09.102] [Server thread/INFO]: Loading server configuration
+2021-12-02 [19:22:09.132] [Server thread/INFO]: Selected English (eng) as the base language
+2021-12-02 [19:22:09.136] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.0
+2021-12-02 [19:22:09.146] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-12-02 [19:22:09.451] [Server thread/INFO]: This server is running PocketMine-MP version 4.0.0
+2021-12-02 [19:22:09.451] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-12-02 [19:22:09.858] [Server thread/INFO]: Loading resource packs...
+2021-12-02 [19:22:09.921] [Server thread/INFO]: Loading DevTools v1.15.0
+2021-12-02 [19:22:09.938] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-12-02 [19:22:09.949] [Server thread/INFO]: Loading Biome v1
+2021-12-02 [19:22:09.952] [Server thread/INFO]: Loading DEVirion v1.2.5-ALPHA12
+2021-12-02 [19:22:09.957] [Server thread/INFO]: [DEVirion] Loading virion libEasyUI v1.0.0 by GiantQuartz (antigen: EasyUI)
+2021-12-02 [19:22:09.958] [Server thread/INFO]: [DEVirion] Loading virion pmforms v1.0.0 by dktapps (antigen: dktapps\pmforms)
+2021-12-02 [19:22:09.958] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-12-02 [19:22:09.963] [Server thread/INFO]: Loading PurePerms v1.5.0-legacy
+2021-12-02 [19:22:09.982] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-12-02 [19:22:09.992] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-12-02 [19:22:09.992] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-12-02 [19:22:09.992] [Server thread/INFO]: Loading Tags v0.0.1
+2021-12-02 [19:22:09.995] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2021-12-02 [19:22:09.997] [Server thread/INFO]: Loading Sound v0.0.1
+2021-12-02 [19:22:09.999] [Server thread/INFO]: Loading NotificationSystem v0.0.1
+2021-12-02 [19:22:10.001] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta2
+2021-12-02 [19:22:10.020] [Server thread/INFO]: Loading SimpleNPC v3.0.0-snapshot
+2021-12-02 [19:22:10.023] [Server thread/INFO]: Loading MyPlot v1
+2021-12-02 [19:22:10.083] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-12-02 [19:22:10.089] [Server thread/INFO]: Enabling DevTools v1.15.0
+2021-12-02 [19:22:10.093] [Server thread/INFO]: Enabling DEVirion v1.2.5-ALPHA12
+2021-12-02 [19:22:10.095] [Server thread/INFO]: Enabling MyPlot v1
+2021-12-02 [19:22:10.161] [Server thread/INFO]: Preparing world "world"
+2021-12-02 [19:22:10.171] [Server thread/INFO]: Enabling Biome v1
+2021-12-02 [19:22:10.173] [Server thread/INFO]: Enabling PurePerms v1.5.0-legacy
+2021-12-02 [19:22:10.202] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2021-12-02 [19:22:10.224] [Server thread/INFO]: Enabling Tags v0.0.1
+2021-12-02 [19:22:10.227] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2021-12-02 [19:22:10.230] [Server thread/INFO]: Enabling Sound v0.0.1
+2021-12-02 [19:22:10.231] [Server thread/INFO]: Enabling NotificationSystem v0.0.1
+2021-12-02 [19:22:10.231] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta2
+2021-12-02 [19:22:10.282] [Server thread/INFO]: Enabling SimpleNPC v3.0.0-snapshot
+2021-12-02 [19:22:10.285] [Server thread/WARNING]: [SimpleNPC] You are using the Development version of SimpleNPC. The plugin will experience errors, crashes, or bugs. Only use this version if you are testing. Don't use the Dev version in production!
+2021-12-02 [19:22:10.362] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-12-02 [19:22:10.363] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-12-02 [19:22:10.420] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2021-12-02 [19:22:10.448] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2021-12-02 [19:22:10.449] [Server thread/INFO]: Default game type: Creative Mode
+2021-12-02 [19:22:10.449] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-12-02 [19:22:10.450] [Server thread/INFO]: Done (1.35s)! For help, type "help" or "?"
+2021-12-02 [19:22:24.414] [Server thread/INFO]: [NetworkSession: 192.168.1.109 40032] Session opened
+2021-12-02 [19:22:24.471] [Server thread/INFO]: [NetworkSession: 192.168.1.109 40032] Player: NhanAZ
+2021-12-02 [19:22:28.059] [Server thread/INFO]: NhanAZ[/192.168.1.109:40032] logged in with entity id 1 at (world, 256, 67, 256)
+2021-12-02 [19:22:33.316] [Server thread/INFO]: {JOIN} NhanAZ đã tham gia máy chủ...
+2021-12-02 [19:23:12.071] [Server thread/INFO]: {INFO} NhanAZ đã rời khỏi máy chủ...
+2021-12-02 [19:23:12.086] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect

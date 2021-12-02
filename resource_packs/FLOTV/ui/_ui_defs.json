@@ -1,0 +1,12 @@
+{
+  "ui_defs": [
+    "ui/pause_screen.json",
+    "ui/ui_template_buttons.json",
+    "ui/ui_common.json",
+    "ui/ui_template_dialogs.json",
+    "ui/server_form.json",
+    "ui/form/passport_form.json",
+	"ui/form/brochure_form.json",
+	"ui/form/hubui_form.json"
+  ]
+}

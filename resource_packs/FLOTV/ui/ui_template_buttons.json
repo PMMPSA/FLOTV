@@ -22,20 +22,20 @@
   "button_image2": {
     "type": "image",
     "layer": 1,
-    "texture": "textures/ui/flotv/store/store_press",
+    "texture": "textures/ui/store/store_press",
     "$button_alpha|default": "$content_alpha",
     "alpha": "$button_alpha"
   },
   "uv_base": {
     "anim_type": "uv",
-    "next": "$next_frame", 
+    "next": "$next_frame",
     "from": "$uv_frame",
     "to": "$uv_frame"
   },
   "button_image3": {
     "type": "image",
     "layer": 1,
-    "texture": "textures/ui/flotv/store/store_press",
+    "texture": "textures/ui/store/store_press",
     "$button_alpha|default": "$content_alpha",
     "alpha": "$button_alpha",
 	"uv": "@common_buttons.full_01",
