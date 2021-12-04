@@ -1,0 +1,6 @@
+- fix lại plugin sound
+- fix purechat & pureperms
+- setup plot
+- particle spawn
+- napthe
+- discord huy hiệu
