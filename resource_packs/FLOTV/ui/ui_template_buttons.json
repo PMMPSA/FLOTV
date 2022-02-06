@@ -28,7 +28,7 @@
   },
   "uv_base": {
     "anim_type": "uv",
-    "next": "$next_frame",
+    "next": "$next_frame", 
     "from": "$uv_frame",
     "to": "$uv_frame"
   },

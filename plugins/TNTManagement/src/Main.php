@@ -12,21 +12,18 @@ use pocketmine\event\entity\ExplosionPrimeEvent;
 class Main extends PluginBase implements Listener
 {
 
-	public function onEnable() : void
-	{
+	protected function onEnable() : void {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 
-	public function onBlockPlace(BlockPlaceEvent $event)
-	{
+	public function onBlockPlace(BlockPlaceEvent $event) {
 		$player = $event->getPlayer();
 		if ($event->getBlock()->getId() == 46) {
 			$this->getLogger()->warning("Detect ". $player->getName() . " placing TNT block!");
 		}
 	}
 
-	public function onExplosionPrime(ExplosionPrimeEvent $event)
-	{
+	public function onExplosionPrime(ExplosionPrimeEvent $event) {
 		$event->setBlockBreaking(false);
 	}
 

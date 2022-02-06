@@ -1,7 +1,4 @@
 {
-  "nineslice_size": 1,
-  "base_size": [
-    256,
-    32
-  ]
+    "nineslice_size": 1,
+    "base_size": [256, 32]
 }

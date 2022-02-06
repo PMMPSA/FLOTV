@@ -1,0 +1,7 @@
+---
+name: Particles
+version: 0.0.1
+main: NhanAZ\Particles\Main
+api: 4.1.0-BETA2
+src-namespace-prefix: NhanAZ\Particles
+...

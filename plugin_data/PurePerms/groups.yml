@@ -1,0 +1,20 @@
+---
+Player:
+  alias: ""
+  inheritance: []
+  permissions: []
+  worlds: []
+  isDefault: true
+Helper:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+Staff:
+  alias: ""
+  isDefault: false
+  inheritance: []
+  permissions: []
+  worlds: []
+...
