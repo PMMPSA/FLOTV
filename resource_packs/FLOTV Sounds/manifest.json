@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "FLOTV Sounds Resource Pack",
+        "name": "FLOTV Sounds",
+        "uuid": "3d58866b-66ec-4bbe-acfa-8fb8e5d66442",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 17, 30]
+    },
+    "modules": [
+        {
+            "description": "FLOTV Sounds Resource Pack",
+            "type": "resources",
+            "uuid": "a591d2b5-af21-43aa-a224-d1f4b74b786e",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors":["NhanAZ"],
+        "url":"https://github.com/NhanAZ"
+    }
+}

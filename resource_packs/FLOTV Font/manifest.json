@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "FLOTV Font Resource Pack",
+        "name": "FLOTV Font",
+        "uuid": "1e62069e-1f19-4d44-a228-3ea20768662f",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 17, 30]
+    },
+    "modules": [
+        {
+            "description": "FLOTV Font Resource Pack",
+            "type": "resources",
+            "uuid": "c877432b-caf6-4c10-ab59-b563fc39c7c8",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors":["NhanAZ"],
+        "url":"https://github.com/NhanAZ"
+    }
+}

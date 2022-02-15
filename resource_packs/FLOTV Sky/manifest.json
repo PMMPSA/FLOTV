@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "FLOTV Sky Resource Pack",
+        "name": "FLOTV Sky",
+        "uuid": "2e98547c-0298-4e0f-a3f9-021e95883da9",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 17, 30]
+    },
+    "modules": [
+        {
+            "description": "FLOTV Sky Resource Pack",
+            "type": "resources",
+            "uuid": "accffdbd-b576-452b-9c39-314dbe885997",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors":["NhanAZ"],
+        "url":"https://github.com/NhanAZ"
+    }
+}

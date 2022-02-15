@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "FLOTV Sides Resource Pack",
+        "name": "FLOTV Sides",
+        "uuid": "c3e87ffa-4e0a-48d3-a676-eb3f568ba1f0",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 17, 30]
+    },
+    "modules": [
+        {
+            "description": "FLOTV Sides Resource Pack",
+            "type": "resources",
+            "uuid": "d10d424d-7656-41fc-a6bf-c228daf13baf",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors":["NhanAZ"],
+        "url":"https://github.com/NhanAZ"
+    }
+}

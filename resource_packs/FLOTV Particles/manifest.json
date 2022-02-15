@@ -1,0 +1,22 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "FLOTV Particles Resource Pack",
+        "name": "FLOTV Particles",
+        "uuid": "1e6a7f16-e9ef-40dc-aed2-32be6fc824af",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 17, 30]
+    },
+    "modules": [
+        {
+            "description": "FLOTV Particles Resource Pack",
+            "type": "resources",
+            "uuid": "68837c2d-941e-42fb-9688-92315f2c0086",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors":["NhanAZ"],
+        "url":"https://github.com/NhanAZ"
+    }
+}
