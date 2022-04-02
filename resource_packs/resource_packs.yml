@@ -1,8 +1,9 @@
 force_resources: true
 resource_stack:
-  - FLOTV Font.zip
-  - FLOTV Particles.zip
-  - FLOTV Sides.zip
-  - FLOTV Sky.zip
-  - FLOTV Sounds.zip
-  - FLOTV UI.zip
+  # - FLOTV Font.zip
+  # - FLOTV Particles.zip
+  # - FLOTV Sides.zip
+  # - FLOTV Sky.zip
+  # - FLOTV Sounds.zip
+  # - FLOTV UI.zip
+  - CTVL.zip

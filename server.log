@@ -4395,3 +4395,960 @@
 2022-02-15 [19:32:45.438] [Server thread/INFO]: Done (5.387s)! For help, type "help" or "?"
 2022-02-15 [19:32:53.466] [Server thread/INFO]: [NetworkSession: 192.168.1.109 40011] Session opened
 2022-02-15 [19:32:53.545] [Server thread/INFO]: [NetworkSession: 192.168.1.109 40011] Player: NhanAZ
+2022-03-02 [22:10:05.323] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:10:05.361] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:10:05.430] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:10:05.447] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:10:05.478] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:10:05.889] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:10:05.892] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:10:08.623] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:10:08.985] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:10:08.999] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:10:09.059] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:10:09.071] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:10:09.072] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:10:09.077] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:10:09.137] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:10:09.144] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:10:09.158] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:10:09.164] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:10:09.164] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:10:09.174] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:10:09.201] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:10:09.245] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:10:09.255] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:10:09.264] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-02 [22:10:09.283] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-02 [22:10:09.290] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:10:09.298] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:10:09.311] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:10:09.318] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-02 [22:10:09.327] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:10:09.341] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:10:09.353] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:10:09.360] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-02 [22:10:09.378] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-02 [22:10:09.409] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-02 [22:10:09.499] [Server thread/INFO]: Preparing world "world"
+2022-03-02 [22:10:09.591] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-02 [22:10:09.672] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-02 [22:10:09.747] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:10:09.933] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:10:09.973] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-02 [22:10:10.007] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-02 [22:10:10.366] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-02 [22:10:10.369] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-02 [22:10:10.382] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-02 [22:10:10.385] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-02 [22:10:10.392] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-02 [22:10:10.395] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-02 [22:10:10.409] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-02 [22:10:10.414] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-02 [22:10:10.419] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-02 [22:10:10.422] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-02 [22:10:10.627] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-02 [22:10:10.657] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-02 [22:10:10.657] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-02 [22:10:10.660] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-02 [22:10:10.663] [Server thread/INFO]: Done (5.309s)! For help, type "help" or "?"
+2022-03-02 [22:10:25.817] [Server thread/INFO]: [NetworkSession: 192.168.1.1 32124] Session opened
+2022-03-02 [22:10:25.899] [Server thread/INFO]: [NetworkSession: 192.168.1.1 32124] Player: NhanAZ
+2022-03-02 [22:10:27.637] [Server thread/CRITICAL]: Error: "Call to a member function getName() on null" (EXCEPTION) in "plugins/RPSolution/src/emretr1/rpsolution/Main" at line 51
+--- Stack trace ---
+  #0 pmsrc/src/event/RegisteredListener(75): emretr1\rpsolution\Main->onPacketReceive(object pocketmine\event\server\DataPacketReceiveEvent#29667)
+  #1 pmsrc/src/event/Event(62): pocketmine\event\RegisteredListener->callEvent(object pocketmine\event\server\DataPacketReceiveEvent#29667)
+  #2 pmsrc/src/network/mcpe/NetworkSession(394): pocketmine\event\Event->call()
+  #3 pmsrc/src/network/mcpe/NetworkSession(358): pocketmine\network\mcpe\NetworkSession->handleDataPacket(object pocketmine\network\mcpe\protocol\ResourcePackClientResponsePacket#29701, string[262] ....*08eca4c8-5719-4c6b-931a-edfecdfefa12_0.0.1*1e62069e-1f19-4d44-a228-3ea20768)
+  #4 pmsrc/src/network/mcpe/raklib/RakLibInterface(192): pocketmine\network\mcpe\NetworkSession->handleEncoded(string[165] E.[..0.E..q-B.y4MW3.i...=.T....9\..z....f..a..N.....!we..#..g{..S..L..C..8...S.j)
+  #5 pmsrc/vendor/pocketmine/raklib-ipc/src/RakLibToUserThreadMessageReceiver(42): pocketmine\network\mcpe\raklib\RakLibInterface->onPacketReceive(integer 0, string[174] ..s.9^.E..!\...%`........R..w6c....N.8b,.f.Zu..E.cb...S....7........?U.2.W..H4Q.)
+  #6 pmsrc/src/network/mcpe/raklib/RakLibInterface(122): raklib\server\ipc\RakLibToUserThreadMessageReceiver->handle(object pocketmine\network\mcpe\raklib\RakLibInterface#28137)
+  #7 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(123): pocketmine\network\mcpe\raklib\RakLibInterface->pocketmine\network\mcpe\raklib\{closure}()
+  #8 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(82): pocketmine\snooze\SleeperHandler->processNotifications()
+  #9 pmsrc/src/Server(1660): pocketmine\snooze\SleeperHandler->sleepUntil(double 1646233827.6308)
+  #10 pmsrc/src/Server(1046): pocketmine\Server->tickProcessor()
+  #11 pmsrc/src/PocketMine(304): pocketmine\Server->__construct(object BaseClassLoader#2, object pocketmine\utils\MainLogger#3, string[9] D:\FLOTV\, string[17] D:\FLOTV\plugins\)
+  #12 pmsrc/src/PocketMine(327): pocketmine\server()
+  #13 pmsrc(11): require(string[53] phar://D:/FLOTV/PocketMine-MP.phar/src/PocketMine.php)
+--- End of exception information ---
+2022-03-02 [22:10:27.638] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2022-03-02 [22:10:27.702] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Wed_Mar_2-22.10.27-WIB_2022.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2022-03-02 [22:10:27.705] [Server thread/EMERGENCY]: Forcing server shutdown
+2022-03-02 [22:10:27.711] [Server thread/INFO]: Disabling PurePerms v1.4.5
+2022-03-02 [22:10:27.725] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:10:27.729] [Server thread/INFO]: Disabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:10:27.730] [Server thread/INFO]: Disabling DEVirion v1.2.8
+2022-03-02 [22:10:27.731] [Server thread/INFO]: Disabling DevTools v1.15.0
+2022-03-02 [22:10:27.731] [Server thread/INFO]: Disabling PlayerSelectors v2.0.0
+2022-03-02 [22:10:27.734] [Server thread/INFO]: Disabling Slapper v2.0.0
+2022-03-02 [22:10:27.737] [Server thread/INFO]: Disabling Tags v0.0.1
+2022-03-02 [22:10:27.737] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2022-03-02 [22:10:27.738] [Server thread/INFO]: Disabling Track v0.0.8
+2022-03-02 [22:10:27.741] [Server thread/INFO]: Disabling RPSolution v1
+2022-03-02 [22:10:27.744] [Server thread/INFO]: Disabling Sound v0.0.1
+2022-03-02 [22:10:27.745] [Server thread/INFO]: Disabling Biome v1.0.0
+2022-03-02 [22:10:27.749] [Server thread/INFO]: Disabling ChatThin v1.3.0
+2022-03-02 [22:10:27.749] [Server thread/INFO]: Disabling Particles v0.0.1
+2022-03-02 [22:10:27.750] [Server thread/INFO]: Disabling FormAPI v2.1.0
+2022-03-02 [22:10:27.755] [Server thread/INFO]: Disabling PureChat v2.0.0
+2022-03-02 [22:10:27.756] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to Máy chủ tạm đóng. Chân thành xin lỗi vì bất tiện này!
+2022-03-02 [22:10:27.760] [Server thread/INFO]: Unloading world "world"
+2022-03-02 [22:14:27.470] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:14:27.504] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:14:27.570] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:14:27.589] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:14:27.615] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:14:28.045] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:14:28.048] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:14:30.721] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:14:31.013] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:14:31.032] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:14:31.070] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:14:31.114] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:14:31.158] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:14:31.172] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:14:31.172] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:14:31.173] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:14:31.190] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:14:31.210] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:14:31.211] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:14:31.214] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:14:31.224] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:14:31.256] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:14:31.280] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:14:31.289] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:14:31.296] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-02 [22:14:31.301] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:14:31.307] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:14:31.329] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-02 [22:14:31.334] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:14:31.341] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:14:31.346] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:14:31.354] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-02 [22:14:31.364] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-02 [22:14:31.379] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-02 [22:14:31.406] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-02 [22:14:31.490] [Server thread/INFO]: Preparing world "world"
+2022-03-02 [22:14:31.577] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:14:31.621] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:14:31.761] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-02 [22:14:31.881] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-02 [22:14:31.920] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-02 [22:14:31.953] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-02 [22:14:32.307] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-02 [22:14:32.311] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-02 [22:14:32.324] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-02 [22:14:32.331] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-02 [22:14:32.331] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-02 [22:14:32.335] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-02 [22:14:32.341] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-02 [22:14:32.342] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-02 [22:14:32.347] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-02 [22:14:32.358] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-02 [22:14:32.545] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-02 [22:14:32.577] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-02 [22:14:32.577] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-02 [22:14:32.578] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-02 [22:14:32.579] [Server thread/INFO]: Done (5.083s)! For help, type "help" or "?"
+2022-03-02 [22:14:44.474] [Server thread/INFO]: [NetworkSession: 192.168.1.1 20396] Session opened
+2022-03-02 [22:14:44.556] [Server thread/INFO]: [NetworkSession: 192.168.1.1 20396] Player: NhanAZ
+2022-03-02 [22:14:46.735] [Server thread/CRITICAL]: TypeError: "emretr1\rpsolution\PackSendEntry::__construct(): Argument #1 ($player) must be of type pocketmine\player\Player, null given, called in D:\FLOTV\plugins\RPSolution\src\emretr1\rpsolution\Main.php on line 51" (EXCEPTION) in "plugins/RPSolution/src/emretr1/rpsolution/Main" at line 103
+--- Stack trace ---
+  #0 plugins/RPSolution/src/emretr1/rpsolution/Main(51): emretr1\rpsolution\PackSendEntry->__construct(NULL )
+  #1 pmsrc/src/event/RegisteredListener(75): emretr1\rpsolution\Main->onPacketReceive(object pocketmine\event\server\DataPacketReceiveEvent#29667)
+  #2 pmsrc/src/event/Event(62): pocketmine\event\RegisteredListener->callEvent(object pocketmine\event\server\DataPacketReceiveEvent#29667)
+  #3 pmsrc/src/network/mcpe/NetworkSession(394): pocketmine\event\Event->call()
+  #4 pmsrc/src/network/mcpe/NetworkSession(358): pocketmine\network\mcpe\NetworkSession->handleDataPacket(object pocketmine\network\mcpe\protocol\ResourcePackClientResponsePacket#29701, string[262] ....*08eca4c8-5719-4c6b-931a-edfecdfefa12_0.0.1*1e62069e-1f19-4d44-a228-3ea20768)
+  #5 pmsrc/src/network/mcpe/raklib/RakLibInterface(192): pocketmine\network\mcpe\NetworkSession->handleEncoded(string[165] E.[..0.E..q-B.y4MW3.i...=.T....9\..z....f..a..N.....!we..#..g{..S..L..C..8...S.j)
+  #6 pmsrc/vendor/pocketmine/raklib-ipc/src/RakLibToUserThreadMessageReceiver(42): pocketmine\network\mcpe\raklib\RakLibInterface->onPacketReceive(integer 0, string[174] ...n\.lu.../...=.2..f....(..z....BV.2...P...U9?.=...(..]u.*S.....*6.q...*`.0OL..)
+  #7 pmsrc/src/network/mcpe/raklib/RakLibInterface(122): raklib\server\ipc\RakLibToUserThreadMessageReceiver->handle(object pocketmine\network\mcpe\raklib\RakLibInterface#28204)
+  #8 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(123): pocketmine\network\mcpe\raklib\RakLibInterface->pocketmine\network\mcpe\raklib\{closure}()
+  #9 pmsrc/vendor/pocketmine/snooze/src/SleeperHandler(82): pocketmine\snooze\SleeperHandler->processNotifications()
+  #10 pmsrc/src/Server(1660): pocketmine\snooze\SleeperHandler->sleepUntil(double 1646234086.7471)
+  #11 pmsrc/src/Server(1046): pocketmine\Server->tickProcessor()
+  #12 pmsrc/src/PocketMine(304): pocketmine\Server->__construct(object BaseClassLoader#2, object pocketmine\utils\MainLogger#3, string[9] D:\FLOTV\, string[17] D:\FLOTV\plugins\)
+  #13 pmsrc/src/PocketMine(327): pocketmine\server()
+  #14 pmsrc(11): require(string[53] phar://D:/FLOTV/PocketMine-MP.phar/src/PocketMine.php)
+--- End of exception information ---
+2022-03-02 [22:14:46.735] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2022-03-02 [22:14:46.805] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Wed_Mar_2-22.14.46-WIB_2022.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2022-03-02 [22:14:46.807] [Server thread/EMERGENCY]: Forcing server shutdown
+2022-03-02 [22:14:46.808] [Server thread/INFO]: Disabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:14:46.824] [Server thread/INFO]: Disabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:14:46.831] [Server thread/INFO]: Disabling PurePerms v1.4.5
+2022-03-02 [22:14:46.840] [Server thread/INFO]: Disabling PlayerSelectors v2.0.0
+2022-03-02 [22:14:46.843] [Server thread/INFO]: Disabling DEVirion v1.2.8
+2022-03-02 [22:14:46.843] [Server thread/INFO]: Disabling DevTools v1.15.0
+2022-03-02 [22:14:46.849] [Server thread/INFO]: Disabling Slapper v2.0.0
+2022-03-02 [22:14:46.849] [Server thread/INFO]: Disabling Particles v0.0.1
+2022-03-02 [22:14:46.850] [Server thread/INFO]: Disabling TNTManagement v0.0.1
+2022-03-02 [22:14:46.856] [Server thread/INFO]: Disabling RPSolution v1
+2022-03-02 [22:14:46.857] [Server thread/INFO]: Disabling Sound v0.0.1
+2022-03-02 [22:14:46.857] [Server thread/INFO]: Disabling Tags v0.0.1
+2022-03-02 [22:14:46.860] [Server thread/INFO]: Disabling ChatThin v1.3.0
+2022-03-02 [22:14:46.863] [Server thread/INFO]: Disabling FormAPI v2.1.0
+2022-03-02 [22:14:46.863] [Server thread/INFO]: Disabling Track v0.0.8
+2022-03-02 [22:14:46.869] [Server thread/INFO]: Disabling Biome v1.0.0
+2022-03-02 [22:14:46.869] [Server thread/INFO]: Disabling PureChat v2.0.0
+2022-03-02 [22:14:46.870] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to Máy chủ tạm đóng. Chân thành xin lỗi vì bất tiện này!
+2022-03-02 [22:14:46.870] [Server thread/INFO]: Unloading world "world"
+2022-03-02 [22:15:48.701] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:15:48.736] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:15:48.804] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:15:48.822] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:15:48.849] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:15:49.309] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:15:49.312] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:15:52.031] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:15:52.318] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:15:52.339] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:15:52.401] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:15:52.414] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:15:52.414] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:15:52.420] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:15:52.433] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:15:52.434] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:15:52.434] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:15:52.445] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:15:52.479] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:15:52.506] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:15:52.523] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:15:52.534] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:15:52.582] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:15:52.591] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:15:52.601] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:15:52.615] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-02 [22:15:52.620] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:15:52.634] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:15:52.639] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:15:52.648] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:15:52.653] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2022-03-02 [22:15:52.713] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Wed_Mar_2-22.15.52-WIB_2022.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2022-03-02 [22:15:52.714] [Server thread/EMERGENCY]: Forcing server shutdown
+2022-03-02 [22:16:03.806] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:16:03.838] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:16:03.902] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:16:03.920] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:16:03.946] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:16:04.442] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:16:04.446] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:16:07.167] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:16:07.470] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:16:07.476] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:16:07.520] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:16:07.535] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:16:07.594] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:16:07.620] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:16:07.638] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:16:07.661] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:16:07.673] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:16:07.676] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:16:07.679] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:16:07.708] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:16:07.713] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:16:07.713] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:16:07.721] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:16:07.735] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:16:07.746] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:16:07.751] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-02 [22:16:07.766] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:16:07.772] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:16:07.778] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:16:07.790] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-02 [22:16:07.800] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:16:07.806] [Server thread/EMERGENCY]: An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+2022-03-02 [22:16:07.852] [Server thread/EMERGENCY]: Please upload the "D:/FLOTV/crashdumps/Wed_Mar_2-22.16.07-WIB_2022.log" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+2022-03-02 [22:16:07.856] [Server thread/EMERGENCY]: Forcing server shutdown
+2022-03-02 [22:22:29.395] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:22:29.443] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:22:29.519] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:22:29.546] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:22:29.581] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:22:30.173] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:22:30.179] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:22:33.823] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:22:34.299] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:22:34.325] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:22:34.397] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:22:34.433] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:22:34.437] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:22:34.455] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:22:34.468] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:22:34.469] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:22:34.470] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:22:34.481] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:22:34.520] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:22:34.563] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:22:34.594] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:22:34.606] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:22:34.658] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:22:34.669] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-02 [22:22:34.679] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:22:34.684] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:22:34.689] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:22:34.701] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:22:34.709] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-02 [22:22:34.717] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:22:34.722] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-02 [22:22:34.736] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:22:34.743] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-02 [22:22:34.758] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-02 [22:22:34.782] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-02 [22:22:34.868] [Server thread/INFO]: Preparing world "world"
+2022-03-02 [22:22:34.960] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-02 [22:22:35.045] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-02 [22:22:35.119] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-02 [22:22:35.475] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-02 [22:22:35.516] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:22:35.644] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:22:35.679] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-02 [22:22:35.688] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-02 [22:22:35.689] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-02 [22:22:35.699] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-02 [22:22:35.700] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-02 [22:22:35.705] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-02 [22:22:35.717] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-02 [22:22:35.722] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-02 [22:22:35.725] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-02 [22:22:35.734] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-02 [22:22:35.928] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-02 [22:22:35.961] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-02 [22:22:35.961] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-02 [22:22:35.962] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-02 [22:22:35.963] [Server thread/INFO]: Done (6.527s)! For help, type "help" or "?"
+2022-03-02 [22:22:44.681] [Server thread/INFO]: [NetworkSession: 192.168.1.1 8337] Session opened
+2022-03-02 [22:22:44.781] [Server thread/INFO]: [NetworkSession: 192.168.1.1 8337] Player: NhanAZ
+2022-03-02 [22:22:51.737] [Server thread/INFO]: NhanAZ[/192.168.1.1:8337] logged in with entity id 1 at (world, 54.7189, 65, 3.3699)
+2022-03-02 [22:22:59.234] [Server thread/INFO]: NhanAZ joined the game
+2022-03-02 [22:23:05.601] [Server thread/INFO]: [Track] CONSOLE > /ver rp
+2022-03-02 [22:23:05.603] [Server thread/INFO]: RPSolution version 1
+2022-03-02 [22:23:05.606] [Server thread/INFO]: A temporary solution for a client bug about loading large MB resource packs in PocketMine-MP
+2022-03-02 [22:23:05.607] [Server thread/INFO]: Author: EmreTr1
+2022-03-02 [22:24:24.633] [Server thread/INFO]: NhanAZ left the game
+2022-03-02 [22:24:24.665] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2022-03-02 [22:28:07.965] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:28:07.996] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:28:08.060] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:28:08.091] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:28:08.126] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:28:08.544] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:28:08.547] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:28:11.330] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:28:11.531] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:28:11.569] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:28:11.622] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:28:11.650] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:28:11.669] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:28:11.670] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:28:11.670] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:28:11.678] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:28:11.699] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:28:11.771] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:28:11.787] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:28:11.791] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:28:11.792] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:28:11.811] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:28:11.836] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:28:11.854] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-02 [22:28:11.862] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-02 [22:28:11.867] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-02 [22:28:11.875] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:28:11.887] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:28:11.895] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:28:11.915] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:28:11.920] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:28:11.928] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:28:11.933] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-02 [22:28:11.945] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-02 [22:28:11.976] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-02 [22:28:12.104] [Server thread/INFO]: Preparing world "world"
+2022-03-02 [22:28:12.213] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-02 [22:28:12.274] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-02 [22:28:12.368] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-02 [22:28:12.421] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:28:12.456] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-02 [22:28:12.793] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:28:12.918] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-02 [22:28:12.933] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-02 [22:28:12.943] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-02 [22:28:12.946] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-02 [22:28:12.950] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-02 [22:28:12.952] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-02 [22:28:12.956] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-02 [22:28:12.961] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-02 [22:28:12.963] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-02 [22:28:12.964] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-02 [22:28:13.159] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-02 [22:28:13.193] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-02 [22:28:13.193] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-02 [22:28:13.194] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-02 [22:28:13.194] [Server thread/INFO]: Done (5.205s)! For help, type "help" or "?"
+2022-03-02 [22:29:25.989] [Server thread/INFO]: [NetworkSession: 192.168.1.1 28100] Session opened
+2022-03-02 [22:29:26.075] [Server thread/INFO]: [NetworkSession: 192.168.1.1 28100] Player: NhanAZ
+2022-03-02 [22:29:46.950] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2022-03-02 [22:29:55.775] [Server thread/INFO]: [Track] CONSOLE > /op NhanAZ
+2022-03-02 [22:29:55.778] [Server thread/INFO]: [CONSOLE: Opped NhanAZ]
+2022-03-02 [22:31:58.178] [Server thread/INFO]: [NetworkSession: 192.168.1.1 21822] Session opened
+2022-03-02 [22:31:58.327] [Server thread/INFO]: [NetworkSession: 192.168.1.1 21822] Player: NhanAZ
+2022-03-02 [22:36:23.328] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:36:23.361] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:36:23.427] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:36:23.460] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:36:23.486] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:36:23.971] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:36:23.974] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:36:27.790] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:36:28.184] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:36:28.191] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:36:28.312] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:36:28.455] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:36:28.761] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:36:28.785] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:36:28.822] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:36:28.836] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:36:28.836] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:36:28.839] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:36:28.857] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:36:28.870] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:36:28.887] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:36:28.900] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:36:28.901] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:36:28.913] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-02 [22:36:28.927] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-02 [22:36:28.956] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:36:28.973] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:36:29.000] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:36:29.010] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:36:29.042] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:36:29.061] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-02 [22:36:29.075] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:36:29.087] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-02 [22:36:29.118] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-02 [22:36:29.154] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-02 [22:36:29.260] [Server thread/INFO]: Preparing world "world"
+2022-03-02 [22:36:29.458] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:36:29.740] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-02 [22:36:30.417] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-02 [22:36:30.567] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-02 [22:36:30.636] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:36:30.687] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-02 [22:36:30.733] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-02 [22:36:30.747] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-02 [22:36:30.765] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-02 [22:36:30.766] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-02 [22:36:30.805] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-02 [22:36:30.806] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-02 [22:36:30.822] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-02 [22:36:30.837] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-02 [22:36:30.859] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-02 [22:36:30.865] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-02 [22:36:31.153] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-02 [22:36:31.194] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-02 [22:36:31.194] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-02 [22:36:31.200] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-02 [22:36:31.200] [Server thread/INFO]: Done (7.846s)! For help, type "help" or "?"
+2022-03-02 [22:38:03.207] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-02 [22:38:03.241] [Server thread/INFO]: Loading server configuration
+2022-03-02 [22:38:03.318] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-02 [22:38:03.345] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-02 [22:38:03.375] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-02 [22:38:03.838] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-02 [22:38:03.841] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-02 [22:38:06.524] [Server thread/INFO]: Loading resource packs...
+2022-03-02 [22:38:06.725] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-02 [22:38:06.763] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-02 [22:38:06.817] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-02 [22:38:06.850] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-02 [22:38:06.862] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-02 [22:38:06.863] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-02 [22:38:06.866] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-02 [22:38:06.879] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-02 [22:38:06.887] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-02 [22:38:06.914] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-02 [22:38:06.926] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-02 [22:38:06.927] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-02 [22:38:06.927] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-02 [22:38:06.941] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-02 [22:38:06.953] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-02 [22:38:07.003] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-02 [22:38:07.021] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-02 [22:38:07.029] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-02 [22:38:07.037] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-02 [22:38:07.045] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-02 [22:38:07.055] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-02 [22:38:07.061] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-02 [22:38:07.068] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-02 [22:38:07.087] [Server thread/INFO]: Loading RPSolution v1
+2022-03-02 [22:38:07.104] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-02 [22:38:07.115] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-02 [22:38:07.139] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-02 [22:38:07.207] [Server thread/INFO]: Preparing world "world"
+2022-03-02 [22:38:07.296] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-02 [22:38:07.337] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-02 [22:38:07.443] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-02 [22:38:07.489] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-02 [22:38:07.519] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-02 [22:38:07.884] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-02 [22:38:08.019] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-02 [22:38:08.019] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-02 [22:38:08.027] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-02 [22:38:08.037] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-02 [22:38:08.037] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-02 [22:38:08.049] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-02 [22:38:08.052] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-02 [22:38:08.062] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-02 [22:38:08.075] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-02 [22:38:08.086] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-02 [22:38:08.299] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-02 [22:38:08.329] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-02 [22:38:08.329] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-02 [22:38:08.329] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-02 [22:38:08.330] [Server thread/INFO]: Done (5.095s)! For help, type "help" or "?"
+2022-03-02 [22:38:28.001] [Server thread/INFO]: [NetworkSession: 192.168.1.1 18230] Session opened
+2022-03-02 [22:38:28.079] [Server thread/INFO]: [NetworkSession: 192.168.1.1 18230] Player: NhanAZ
+2022-03-02 [22:39:03.979] [Server thread/INFO]: NhanAZ[/192.168.1.1:18230] logged in with entity id 1 at (world, 38.3895, 71.3863, 18.5902)
+2022-03-02 [22:39:19.532] [Server thread/INFO]: NhanAZ joined the game
+2022-03-02 [22:39:28.523] [Server thread/INFO]: [Track] NhanAZ > /ver
+2022-03-02 [22:39:42.341] [Server thread/INFO]: NhanAZ left the game
+2022-03-02 [22:39:42.431] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2022-03-03 [11:52:18.882] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-03 [11:52:18.915] [Server thread/INFO]: Loading server configuration
+2022-03-03 [11:52:18.978] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-03 [11:52:18.995] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-03 [11:52:19.025] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-03 [11:52:19.465] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-03 [11:52:19.469] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-03 [11:52:22.194] [Server thread/INFO]: Loading resource packs...
+2022-03-03 [11:52:22.478] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-03 [11:52:22.523] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-03 [11:52:22.612] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-03 [11:52:22.662] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-03 [11:52:22.677] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-03 [11:52:22.677] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-03 [11:52:22.677] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-03 [11:52:22.707] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-03 [11:52:22.722] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-03 [11:52:22.736] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-03 [11:52:22.752] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-03 [11:52:22.756] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-03 [11:52:22.756] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-03 [11:52:22.765] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-03 [11:52:22.791] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-03 [11:52:22.807] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-03 [11:52:22.820] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-03 [11:52:22.827] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-03 [11:52:22.833] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-03 [11:52:22.846] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-03 [11:52:22.852] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-03 [11:52:22.858] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-03 [11:52:22.864] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-03 [11:52:22.876] [Server thread/INFO]: Loading RPSolution v1
+2022-03-03 [11:52:22.883] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-03 [11:52:22.896] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-03 [11:52:22.921] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-03 [11:52:23.019] [Server thread/INFO]: Preparing world "world"
+2022-03-03 [11:52:23.103] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-03 [11:52:23.252] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-03 [11:52:23.337] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-03 [11:52:23.377] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-03 [11:52:23.699] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-03 [11:52:23.737] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-03 [11:52:23.770] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-03 [11:52:23.770] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-03 [11:52:23.773] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-03 [11:52:23.774] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-03 [11:52:23.774] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-03 [11:52:23.781] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-03 [11:52:23.797] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-03 [11:52:23.797] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-03 [11:52:23.805] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-03 [11:52:23.810] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-03 [11:52:24.004] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-03 [11:52:24.037] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-03 [11:52:24.037] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-03 [11:52:24.038] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-03 [11:52:24.040] [Server thread/INFO]: Done (5.13s)! For help, type "help" or "?"
+2022-03-03 [11:52:33.106] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9817] Session opened
+2022-03-03 [11:52:33.201] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9817] Player: NhanAZ
+2022-03-03 [11:52:34.471] [Server thread/INFO]: NhanAZ[/192.168.1.1:9817] logged in with entity id 1 at (world, 37.5482, 66, 20.5842)
+2022-03-03 [11:52:35.891] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2022-03-03 [11:53:02.349] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-03 [11:53:02.381] [Server thread/INFO]: Loading server configuration
+2022-03-03 [11:53:02.462] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-03 [11:53:02.479] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-03 [11:53:02.509] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-03 [11:53:02.936] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-03 [11:53:02.939] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-03 [11:53:05.658] [Server thread/INFO]: Loading resource packs...
+2022-03-03 [11:53:05.905] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-03 [11:53:05.909] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-03 [11:53:05.947] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-03 [11:53:05.948] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-03 [11:53:05.949] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-03 [11:53:05.961] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-03 [11:53:06.014] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-03 [11:53:06.039] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-03 [11:53:06.054] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-03 [11:53:06.054] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-03 [11:53:06.054] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-03 [11:53:06.083] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-03 [11:53:06.106] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-03 [11:53:06.119] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-03 [11:53:06.132] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-03 [11:53:06.142] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-03 [11:53:06.148] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-03 [11:53:06.152] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-03 [11:53:06.172] [Server thread/INFO]: Loading RPSolution v1
+2022-03-03 [11:53:06.184] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-03 [11:53:06.189] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-03 [11:53:06.207] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-03 [11:53:06.221] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-03 [11:53:06.240] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-03 [11:53:06.250] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-03 [11:53:06.273] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-03 [11:53:06.300] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-03 [11:53:06.365] [Server thread/INFO]: Preparing world "world"
+2022-03-03 [11:53:06.456] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-03 [11:53:06.639] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-03 [11:53:06.714] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-03 [11:53:06.762] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-03 [11:53:06.800] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-03 [11:53:07.116] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-03 [11:53:07.149] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-03 [11:53:07.156] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-03 [11:53:07.164] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-03 [11:53:07.172] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-03 [11:53:07.176] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-03 [11:53:07.177] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-03 [11:53:07.190] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-03 [11:53:07.198] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-03 [11:53:07.205] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-03 [11:53:07.211] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-03 [11:53:07.409] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-03 [11:53:07.438] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-03 [11:53:07.438] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-03 [11:53:07.439] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-03 [11:53:07.439] [Server thread/INFO]: Done (5.065s)! For help, type "help" or "?"
+2022-03-03 [11:53:33.790] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9817] Session opened
+2022-03-03 [11:53:33.890] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9817] Player: NhanAZ
+2022-03-03 [11:53:41.726] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2022-03-03 [12:07:19.896] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-03 [12:07:19.927] [Server thread/INFO]: Loading server configuration
+2022-03-03 [12:07:19.994] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-03 [12:07:20.011] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-03 [12:07:20.039] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-03 [12:07:20.509] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-03 [12:07:20.512] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-03 [12:07:23.258] [Server thread/INFO]: Loading resource packs...
+2022-03-03 [12:07:23.497] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-03 [12:07:23.501] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-03 [12:07:23.561] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-03 [12:07:23.570] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-03 [12:07:23.599] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-03 [12:07:23.611] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-03 [12:07:23.612] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-03 [12:07:23.612] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-03 [12:07:23.631] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-03 [12:07:23.635] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-03 [12:07:23.635] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-03 [12:07:23.645] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-03 [12:07:23.659] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-03 [12:07:23.713] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-03 [12:07:23.738] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-03 [12:07:23.755] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-03 [12:07:23.766] [Server thread/INFO]: Loading RPSolution v1
+2022-03-03 [12:07:23.777] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-03 [12:07:23.782] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-03 [12:07:23.792] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-03 [12:07:23.802] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-03 [12:07:23.807] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-03 [12:07:23.812] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-03 [12:07:23.829] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-03 [12:07:23.834] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-03 [12:07:23.852] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-03 [12:07:23.876] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-03 [12:07:23.954] [Server thread/INFO]: Preparing world "world"
+2022-03-03 [12:07:24.040] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-03 [12:07:24.405] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-03 [12:07:24.436] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-03 [12:07:24.513] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-03 [12:07:24.562] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-03 [12:07:24.600] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-03 [12:07:24.724] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-03 [12:07:24.733] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-03 [12:07:24.742] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-03 [12:07:24.743] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-03 [12:07:24.753] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-03 [12:07:24.753] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-03 [12:07:24.754] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-03 [12:07:24.769] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-03 [12:07:24.779] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-03 [12:07:24.783] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-03 [12:07:24.973] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-03 [12:07:25.004] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-03 [12:07:25.005] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-03 [12:07:25.005] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-03 [12:07:25.006] [Server thread/INFO]: Done (5.085s)! For help, type "help" or "?"
+2022-03-03 [12:07:45.523] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9840] Session opened
+2022-03-03 [12:07:45.603] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9840] Player: NhanAZ
+2022-03-03 [12:09:09.547] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-03 [12:09:09.579] [Server thread/INFO]: Loading server configuration
+2022-03-03 [12:09:09.644] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-03 [12:09:09.675] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-03 [12:09:09.706] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-03 [12:09:10.128] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-03 [12:09:10.131] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-03 [12:09:12.866] [Server thread/INFO]: Loading resource packs...
+2022-03-03 [12:09:13.086] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-03 [12:09:13.105] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-03 [12:09:13.185] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-03 [12:09:13.215] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-03 [12:09:13.244] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-03 [12:09:13.258] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-03 [12:09:13.259] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-03 [12:09:13.262] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-03 [12:09:13.273] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-03 [12:09:13.282] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-03 [12:09:13.296] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-03 [12:09:13.308] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-03 [12:09:13.332] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-03 [12:09:13.345] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-03 [12:09:13.345] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-03 [12:09:13.346] [Server thread/INFO]: Loading RPSolution v1
+2022-03-03 [12:09:13.352] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-03 [12:09:13.361] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-03 [12:09:13.367] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-03 [12:09:13.378] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-03 [12:09:13.386] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-03 [12:09:13.395] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-03 [12:09:13.405] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-03 [12:09:13.412] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-03 [12:09:13.425] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-03 [12:09:13.445] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-03 [12:09:13.470] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-03 [12:09:13.563] [Server thread/INFO]: Preparing world "world"
+2022-03-03 [12:09:13.651] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-03 [12:09:13.809] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-03 [12:09:13.847] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-03 [12:09:13.889] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-03 [12:09:14.216] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-03 [12:09:14.292] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-03 [12:09:14.327] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-03 [12:09:14.339] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-03 [12:09:14.339] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-03 [12:09:14.347] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-03 [12:09:14.352] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-03 [12:09:14.352] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-03 [12:09:14.361] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-03 [12:09:14.373] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-03 [12:09:14.379] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-03 [12:09:14.380] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-03 [12:09:14.592] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-03 [12:09:14.626] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-03 [12:09:14.627] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-03 [12:09:14.628] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-03 [12:09:14.628] [Server thread/INFO]: Done (5.055s)! For help, type "help" or "?"
+2022-03-03 [12:09:24.060] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9840] Session opened
+2022-03-03 [12:09:24.143] [Server thread/INFO]: [NetworkSession: 192.168.1.1 9840] Player: NhanAZ
+2022-03-03 [12:10:02.497] [Server thread/INFO]: NhanAZ[/192.168.1.1:9840] logged in with entity id 1 at (world, 37.5482, 66, 20.5842)
+2022-03-03 [12:10:15.783] [Server thread/INFO]: NhanAZ joined the game
+2022-03-03 [12:10:19.959] [Server thread/INFO]: NhanAZ left the game
+2022-03-03 [12:10:20.008] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2022-03-03 [12:26:21.291] [Server thread/WARNING]: 
+
+	--------------------------------------- ! WARNING ! ---------------------------------------
+	You're using PHP 8.0 with JIT enabled. This provides significant performance improvements.
+	HOWEVER, it is EXPERIMENTAL, and has already been seen to cause weird and unexpected bugs.
+	Proceed with caution.
+	If you want to report any bugs, make sure to mention that you are using PHP 8.0 with JIT.
+	To turn off JIT, change `opcache.jit` to `0` in your php.ini file.
+	-------------------------------------------------------------------------------------------
+
+2022-03-03 [12:26:21.431] [Server thread/INFO]: Loading server configuration
+2022-03-03 [12:26:21.530] [Server thread/INFO]: Selected English (vie) as the base language
+2022-03-03 [12:26:21.549] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.10
+2022-03-03 [12:26:21.576] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2022-03-03 [12:26:22.045] [Server thread/INFO]: This server is running PocketMine-MP version 4.2.0
+2022-03-03 [12:26:22.056] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2022-03-03 [12:26:25.022] [Server thread/INFO]: Loading resource packs...
+2022-03-03 [12:26:25.283] [Server thread/NOTICE]: Could not load plugin 'MyPlot': Disallowed by blacklist
+2022-03-03 [12:26:25.286] [Server thread/INFO]: Loading DevTools v1.15.0
+2022-03-03 [12:26:25.355] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2022-03-03 [12:26:25.383] [Server thread/INFO]: Loading PlayerSelectors v2.0.0
+2022-03-03 [12:26:25.393] [Server thread/INFO]: Loading DEVirion v1.2.8
+2022-03-03 [12:26:25.415] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v2.1.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2022-03-03 [12:26:25.417] [Server thread/INFO]: [DEVirion] Loading virion pmforms v2.0.0 by dktapps (antigen: dktapps\pmforms)
+2022-03-03 [12:26:25.417] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2022-03-03 [12:26:25.429] [Server thread/INFO]: Loading MultiWorld v1.7.0-beta4
+2022-03-03 [12:26:25.567] [Server thread/INFO]: Loading Slapper v2.0.0
+2022-03-03 [12:26:25.590] [Server thread/INFO]: Loading PurePerms v1.4.5
+2022-03-03 [12:26:25.706] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2022-03-03 [12:26:25.743] [Server thread/INFO]: [PurePerms] Multiworld support is currently disabled.
+2022-03-03 [12:26:25.747] [Server thread/INFO]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2022-03-03 [12:26:25.748] [Server thread/INFO]: Loading EasyCommandAutofill v2.0.0
+2022-03-03 [12:26:25.761] [Server thread/INFO]: Loading Tags v0.0.1
+2022-03-03 [12:26:25.770] [Server thread/INFO]: Loading Biome v1.0.0
+2022-03-03 [12:26:25.780] [Server thread/INFO]: Loading TNTManagement v0.0.1
+2022-03-03 [12:26:25.788] [Server thread/INFO]: Loading Sound v0.0.1
+2022-03-03 [12:26:25.801] [Server thread/INFO]: Loading FormAPI v2.1.0
+2022-03-03 [12:26:25.818] [Server thread/INFO]: Loading ChatThin v1.3.0
+2022-03-03 [12:26:25.835] [Server thread/INFO]: Loading Particles v0.0.1
+2022-03-03 [12:26:25.840] [Server thread/INFO]: Loading RPSolution v1
+2022-03-03 [12:26:25.849] [Server thread/INFO]: Loading Track v0.0.8
+2022-03-03 [12:26:25.869] [Server thread/INFO]: Loading PureChat v2.0.0
+2022-03-03 [12:26:25.885] [Server thread/INFO]: Enabling DevTools v1.15.0
+2022-03-03 [12:26:25.913] [Server thread/INFO]: Enabling DEVirion v1.2.8
+2022-03-03 [12:26:26.008] [Server thread/INFO]: Preparing world "world"
+2022-03-03 [12:26:26.107] [Server thread/INFO]: Enabling PlayerSelectors v2.0.0
+2022-03-03 [12:26:26.171] [Server thread/INFO]: Enabling MultiWorld v1.7.0-beta4
+2022-03-03 [12:26:26.312] [Server thread/INFO]: Enabling Slapper v2.0.0
+2022-03-03 [12:26:26.666] [Server thread/INFO]: Enabling PurePerms v1.4.5
+2022-03-03 [12:26:26.758] [Server thread/NOTICE]: [PurePerms] Set data provider to YAMLv1.
+2022-03-03 [12:26:26.799] [Server thread/INFO]: Enabling EasyCommandAutofill v2.0.0
+2022-03-03 [12:26:26.830] [Server thread/INFO]: Enabling Tags v0.0.1
+2022-03-03 [12:26:26.837] [Server thread/INFO]: Enabling Biome v1.0.0
+2022-03-03 [12:26:26.843] [Server thread/INFO]: Enabling TNTManagement v0.0.1
+2022-03-03 [12:26:26.859] [Server thread/INFO]: Enabling Sound v0.0.1
+2022-03-03 [12:26:26.863] [Server thread/INFO]: Enabling FormAPI v2.1.0
+2022-03-03 [12:26:26.863] [Server thread/INFO]: Enabling ChatThin v1.3.0
+2022-03-03 [12:26:26.870] [Server thread/INFO]: Enabling Particles v0.0.1
+2022-03-03 [12:26:26.874] [Server thread/INFO]: Enabling RPSolution v1
+2022-03-03 [12:26:26.883] [Server thread/INFO]: Enabling Track v0.0.8
+2022-03-03 [12:26:26.884] [Server thread/INFO]: Enabling PureChat v2.0.0
+2022-03-03 [12:26:27.114] [Server thread/INFO]: Minecraft network interface running on 0.0.0.0:19132
+2022-03-03 [12:26:27.145] [Server thread/INFO]: Minecraft network interface running on [::]:19133
+2022-03-03 [12:26:27.145] [Server thread/INFO]: Default game type: Creative Mode
+2022-03-03 [12:26:27.146] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2022-03-03 [12:26:27.147] [Server thread/INFO]: Done (5.731s)! For help, type "help" or "?"
+2022-03-03 [12:27:41.881] [Server thread/INFO]: [Track] CONSOLE > /pl
+2022-03-03 [12:27:41.882] [Server thread/INFO]: Plugins (17): Biome v1.0.0, ChatThin v1.3.0, DEVirion v1.2.8, DevTools v1.15.0, EasyCommandAutofill v2.0.0, FormAPI v2.1.0, MultiWorld v1.7.0-beta4, Particles v0.0.1, PlayerSelectors v2.0.0, PureChat v2.0.0, PurePerms v1.4.5, RPSolution v1, Slapper v2.0.0, Sound v0.0.1, TNTManagement v0.0.1, Tags v0.0.1, Track v0.0.8
+2022-03-03 [12:28:29.642] [Server thread/INFO]: [NetworkSession: 192.168.1.1 60987] Session opened
+2022-03-03 [12:28:29.794] [Server thread/INFO]: [NetworkSession: 192.168.1.1 60987] Player: Erik6876
+2022-03-03 [12:28:29.809] [Server thread/INFO]: [NetworkSession: Erik6876] Session closed due to Server is whitelisted
+2022-03-03 [12:28:42.907] [Server thread/INFO]: [Track] CONSOLE > /whitelist off
+2022-03-03 [12:28:42.907] [Server thread/INFO]: [CONSOLE: Turned off the whitelist]
+2022-03-03 [12:28:46.125] [Server thread/INFO]: [Track] CONSOLE > /whitelist reload
+2022-03-03 [12:28:46.129] [Server thread/INFO]: [CONSOLE: Reloaded the whitelist]
+2022-03-03 [12:28:48.438] [Server thread/INFO]: [NetworkSession: 192.168.1.1 60987] Session opened
+2022-03-03 [12:28:48.690] [Server thread/INFO]: [NetworkSession: 192.168.1.1 60987] Player: Erik6876
+2022-03-03 [12:29:13.083] [Server thread/INFO]: [Track] CONSOLE > /pl
+2022-03-03 [12:29:13.093] [Server thread/INFO]: Plugins (17): Biome v1.0.0, ChatThin v1.3.0, DEVirion v1.2.8, DevTools v1.15.0, EasyCommandAutofill v2.0.0, FormAPI v2.1.0, MultiWorld v1.7.0-beta4, Particles v0.0.1, PlayerSelectors v2.0.0, PureChat v2.0.0, PurePerms v1.4.5, RPSolution v1, Slapper v2.0.0, Sound v0.0.1, TNTManagement v0.0.1, Tags v0.0.1, Track v0.0.8
+2022-03-03 [12:29:14.604] [Server thread/INFO]: [Track] CONSOLE > /list
+2022-03-03 [12:29:14.607] [Server thread/INFO]: There are 0/20 players online:
+2022-03-03 [12:29:14.610] [Server thread/INFO]: 
+2022-03-03 [12:30:08.967] [Server thread/INFO]: [NetworkSession: Erik6876] Session closed due to client disconnect
+2022-03-03 [12:30:26.758] [Server thread/INFO]: [NetworkSession: 192.168.1.1 21521] Session opened
+2022-03-03 [12:30:26.864] [Server thread/INFO]: [NetworkSession: 192.168.1.1 21521] Player: NhanAZ
+2022-03-03 [12:30:28.379] [Server thread/INFO]: NhanAZ[/192.168.1.1:21521] logged in with entity id 1 at (world, 37.5482, 66, 20.5842)
+2022-03-03 [12:30:31.420] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
+2022-03-03 [12:31:05.425] [Server thread/INFO]: [NetworkSession: 192.168.1.1 21521] Session opened
+2022-03-03 [12:31:05.553] [Server thread/INFO]: [NetworkSession: 192.168.1.1 21521] Player: NhanAZ
+2022-03-03 [12:31:23.993] [Server thread/INFO]: [NetworkSession: NhanAZ] Session closed due to client disconnect
